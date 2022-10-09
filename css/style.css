@@ -5,7 +5,7 @@
     font-family: 'Prompt', sans-serif;
 }
 
-/*------------------INICIO-------------------*/
+/**------------------INICIO-------------------**/
 .inicio__contenedor{
     display: grid; 
     grid-template-columns: 1fr 1fr; 
@@ -18,6 +18,7 @@
     "barra barra"
     "footer footer"; 
 }
+/*?---------------HEADER----------------*/
 .contenedor__encabezado{
     background-color: #000000b7;
     grid-area: header;
@@ -60,6 +61,8 @@
     color: rgb(252, 163, 17);
     transition: all .5s ease;
 }
+
+/*?---------------MAIN----------------*/
 .main__hero{
     grid-area: hero;
 }
@@ -245,7 +248,7 @@
     transform: scale(1.2);
 }
 
-
+/*?---------------FOOTER----------------*/
 .footer{
     background-color: #000000b7;
     grid-area: footer;
@@ -298,7 +301,7 @@
     border-radius: 10px;
 }
 
-/*------------------DESARROLLO WEB-------------------*/
+/**------------------DESARROLLO WEB-------------------**/
 .desweb__contenedor{
     display: grid; 
     grid-template-columns: 1fr 1fr; 
@@ -310,6 +313,8 @@
     "galeria galeria"
     "footer footer"; 
 }
+
+/*?---------------MAIN----------------*/
 .main__desweb{
     grid-area: desweb;
     background-image: url(../img/Desarroloweb.jpg);
@@ -355,6 +360,8 @@
     -webkit-box-shadow: 20px 19px 40px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 20px 19px 40px 1px rgba(0,0,0,0.75);
 }
+
+/*!----------------GALERIA--------------*/
 .galeria{
     grid-area: galeria;
 }
@@ -422,7 +429,7 @@
     cursor: pointer;
 }
 
-/*------------------SERVICIOS-------------------*/
+/**------------------SERVICIOS-------------------**/
 .servicios__contenedor{
     background-color: white;
     background-repeat: no-repeat;
@@ -439,6 +446,7 @@
     "serv2 serv2"
     "footer footer"; 
 }
+/*?---------------MAIN----------------*/
 .titulo__servicios{
     grid-area: titulo;
     display: flex;
@@ -629,7 +637,7 @@
     font-size: 20px;
     padding: 5px;
 }
-/*------------------CONTACTO-------------------*/
+/**------------------CONTACTO-------------------**/
 .contacto__contenedor{
     display: grid; 
     grid-template-columns: 1fr 1fr; 
@@ -641,6 +649,7 @@
     "footer footer"; 
     
 }
+/*?---------------MAIN----------------*/
 .main__contacto{
     grid-area: contacto;
     background-image: url(../img/contactofondo.jpg);
@@ -650,6 +659,7 @@
     background-size: cover;
     background-position: center;
 }
+/*!------------FORMULARIO-------------*/
 .contac__form .form{
     background-color: rgba(0, 0, 0,.6);
     width: 100%;
@@ -706,7 +716,7 @@
     transition: all .5s ease;
 }
 
-/*------------------NOSOTROS-------------------*/
+/**------------------NOSOTROS-------------------**/
 .nosotros__contenedor{
     display: grid; 
     grid-template-columns: 1fr 1fr; 
@@ -719,6 +729,7 @@
     "valores2 valores2"
     "footer footer"; 
 }
+/*?---------------MAIN----------------*/
 .main__nosotros{
     grid-area: nosotros;
     background: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.301)),url(../img/nosotros.jpg);
@@ -793,7 +804,7 @@
     padding: 10px;
 }
 
-/*-----------------MEDIA QUERIE--------------------*/
+/*!-----------------MEDIA QUERIE--------------------*/
 
 
 @media screen and (max-width: 1235px){

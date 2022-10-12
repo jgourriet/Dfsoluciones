@@ -7,47 +7,39 @@
 
 /**------------------INICIO-------------------**/
 .inicio__contenedor{
-    background-color: #d6d6d6;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 200px auto 500px 600px 200px; 
+    grid-template-rows: 130px auto 200px; 
     gap: 0px 0px; 
     grid-template-areas: 
     "header header"
-    "hero hero"
-    "sep sep"
-    "barra barra"
+    "main main"
     "footer footer"; 
 }
 /*?---------------HEADER----------------*/
 .contenedor__encabezado{
-    background-color: #d6d6d600;
+    background-color: #0000006b;
     grid-area: header;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: flex-start;
+    width: 100%;
 }
 .contenedor__encabezado{
     position: sticky;
     z-index: 2;
     top: 0%;
 }
-.header{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-}
-.header img{
-    width: 200px;
-    height: 200px;
+
+.logo img{
+    width: 130px;
+    height: 130px;
     margin-left: 10px;
     margin-right: 10px;
 }
 .menu{
     border-radius: 20px;
-    background-color: #f8f8f873;
     margin-top: 50px;
 }
 .menu ul li {
@@ -56,7 +48,7 @@
 .menu ul li a{
     text-decoration: none;
     margin: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: 700;
 }
@@ -66,16 +58,19 @@
 }
 
 /*?---------------MAIN----------------*/
-.main__hero{
-    grid-area: hero;
+main{
+    grid-area: main;
 }
-.inicio__hero{
+.main__hero{
     background: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.103)),url(../img/main__hero.jpg);
     width: 100%;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 130px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.inicio__hero{
+    
     display: flex;
     justify-content: center;
     align-items:flex-start;
@@ -119,11 +114,11 @@
 }
 .cont__sep{
     background-color:white;
-    grid-area: sep;
     display: flex;
     justify-content: center;
     flex-direction: row;
     text-align: center;
+    width: 100%;
 }
 .inicio__sep{
     display: flex;
@@ -200,7 +195,6 @@
 }
 
 .inicio__objetivos{
-    grid-area: barra;
     background-image: url(../img/fondo-objetivos.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -303,24 +297,24 @@
 
 /**------------------DESARROLLO WEB-------------------**/
 .desweb__contenedor{
-    background-color: #d6d6d6;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 200px auto auto 200px; 
+    grid-template-rows: 130px auto 200px; 
     gap: 0px 0px; 
     grid-template-areas: 
     "header header"
     "desweb desweb"
-    "galeria galeria"
     "footer footer"; 
 }
 
 /*?---------------MAIN----------------*/
 .main__desweb{
     grid-area: desweb;
+}
+.hero__desweb{
     background-image: url(../img/Desarroloweb.jpg);
     width: 100%;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 130px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -438,16 +432,17 @@
     background-position: center;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 200px 300px 700px 700px 200px; 
+    grid-template-rows: 130px auto 200px; 
     gap: 0px 0px; 
     grid-template-areas: 
     "header header"
-    "titulo titulo"
-    "serv1 serv1"
-    "serv2 serv2"
+    "serv serv"
     "footer footer"; 
 }
 /*?---------------MAIN----------------*/
+.main__servicios{
+    grid-area: serv;
+}
 .titulo__servicios{
     grid-area: titulo;
     display: flex;
@@ -462,6 +457,7 @@
     margin: 10px 25px 10px 15px;
     text-align: center;
     font-size: 20px;
+    text-shadow: 4px 4px 10px rgba(11,11,11,0.61);
 }
 .titulo__servicios h2{
     text-align: center;
@@ -470,7 +466,7 @@
 }
 .titulo__servicios p{
     text-align: center;
-    margin: 10px 20px 10px 20px;
+    margin: 10px 20px 30px 20px;
     font-size: 20px;
     width: 900px;
     color: #7d6666;
@@ -485,7 +481,7 @@
     justify-content: space-evenly;
     margin: 30px;
     width: 100%;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 130px);
     margin: auto;
 }
 .consultoria{
@@ -643,7 +639,7 @@
     background-color: #eeeeee;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 200px auto 200px; 
+    grid-template-rows: 130px auto 200px; 
     gap: 0px 0px; 
     grid-template-areas: 
     "header header"
@@ -723,21 +719,21 @@
     background-color: #d6d6d6;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 200px auto auto auto 200px; 
+    grid-template-rows: 130px auto 200px; 
     gap: 0px 0px; 
     grid-template-areas: 
     "header header"
     "nosotros nosotros"
-    "valores valores"
-    "valores2 valores2"
     "footer footer"; 
 }
 /*?---------------MAIN----------------*/
 .main__nosotros{
     grid-area: nosotros;
+}
+.main__sobre{
     background: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.301)),url(../img/nosotros.jpg);
     width: 100%;
-    height: calc(80vh - 200px);
+    height: calc(80vh - 130px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -748,16 +744,16 @@
     color: #FFFFFF;
     text-shadow: 4px 4px 10px rgba(11,11,11,0.61);
 }
-.main__nosotros h1{
+.main__sobre h1{
     font-size: 70px;
     border-bottom: 3px rgb(252, 163, 17) solid;
     padding: 10px;
 }
-.main__nosotros h3{
+.main__sobre h3{
     font-size: 50px;
     padding: 30px;
 }
-.main__nosotros p{
+.main__sobre p{
     color: #ffffff;
     font-size: 20px;
     text-align: center;

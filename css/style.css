@@ -22,8 +22,8 @@
     grid-area: header;
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    padding: .5rem 2rem;
     width: 100%;
 }
 .contenedor__encabezado{
@@ -38,23 +38,30 @@
     margin-left: 10px;
     margin-right: 10px;
 }
-.menu{
-    border-radius: 20px;
-    margin-top: 50px;
+.menu ul{
+    display: flex;
+    align-items: center;
 }
-.menu ul li {
+.menu li{
+    margin-right: 1rem;
     list-style-type: none;
 }
-.menu ul li a{
+.menu a{
+    color: #fff;
     text-decoration: none;
-    margin: 10px;
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    font-weight: 700;
 }
-.menu ul li a:hover{
-    color: rgb(252, 163, 17);
-    transition: all .5s ease;
+.menu li:last-child{
+    background:#4ad295;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+}
+.menu__icon img{
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
+.menu__icon, #check{
+    display: none;
 }
 
 /*?---------------MAIN----------------*/
@@ -70,7 +77,6 @@ main{
     background-position: center;
 }
 .inicio__hero{
-    
     display: flex;
     justify-content: center;
     align-items:flex-start;
@@ -81,7 +87,7 @@ main{
     font-size: 60px;
     font-weight: 700;
     width: 800px;
-    margin: 5px 10px 10px 5px;
+    margin: 120px 10px 10px 5px;
     text-shadow: 4px 4px 10px rgba(11,11,11,0.61);
     text-align: center;
 }
@@ -120,13 +126,7 @@ main{
     text-align: center;
     width: 100%;
 }
-.inicio__sep{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-}
+
 .sep__info{
     display: flex;
     justify-content: center;
@@ -156,7 +156,7 @@ main{
 .sep__cont img{
     width: 50px;
     height: 50px;
-    padding: 10px;
+    margin: 10px;
 }
 
 .adwords{
@@ -188,10 +188,12 @@ main{
 }
 .sep__cont p{
     width: 400px;
+    margin: 25px;
 }
 .sep__cont h3{
     width: 100px;
     padding: 10px;
+    margin: 25px;
 }
 
 .inicio__objetivos{
@@ -809,36 +811,7 @@ main{
 
 @media screen and (max-width: 1235px){
 .inicio__contenedor{
-    grid-template-rows: 120px auto auto auto 200px; 
-}
-.contenedor__encabezado{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-.menu{
-    background-color: #000000;
-    width: 100%;
-    height: 40px;
-}
-.menu ul li{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-}
-.menu ul li a{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    color: white;
-}
-.header{
-    width: 100%;
-    height: 80px;
+    grid-template-rows: 120px auto 200px; 
 }
 .inicio__hero{
     height: calc(100vh - 120px);
@@ -890,7 +863,7 @@ main{
     padding: 10px;
 }
 .desweb__contenedor{
-    grid-template-rows: 120px auto auto 200px;
+    grid-template-rows: 120px auto 200px;
 }
 
 .desweb__text h1{
@@ -967,15 +940,62 @@ main{
         margin-left: 100px;
         font-size: 70px;
     }
-    @media screen and (max-width: 716px){
-        .contenedor__encabezado{
+    .desweb__contenedor{
+        width: 100%;
+        margin: 0%;
+    }
+    .main__desweb{
+        width: 100%;
+    }
+    .hero__desweb{
+        height: calc(100vh - 120px);
+        width: 100%;
+    }
+    .contenedor__imagenes{
+        width: 100%;
+    }
+    @media screen and (max-width: 736px){
+        .logo img{
+            top: 0px;
+            width: 100px;
+            height: 100px;
+        }
+        .checkbtn{
+            display: block;
+        }
+        .menu__icon{
+            display: block;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+        .menu ul{
+            display: block;
+            position: fixed;
+            top: 120px;
+            left:-100%;
+            background: #0000006b;
+            width: 100%;
+            height: 50vh;
+            right: 0;
+            border-radius: 0px 0px 10px 0px;
+        }
+        .menu ul li{
+            padding: 2rem;
             display: flex;
             justify-content: center;
+            margin: 0;
         }
-        .menu ul li a{
-            margin: 5px;
-            font-size: 18px;
+        .menu ul li:last-child{
+            background: none;
+            padding: 1rem;
         }
+        #check:checked ~ ul{
+            left: 0;
+            transition: all .25s;
+        }
+    
         .inicio__hero h2{
             font-size: 45px;
             font-weight: 900;
@@ -998,7 +1018,7 @@ main{
             color: white;
             margin: auto;
         }
-        .main__desweb{
+        .desweb__text{
             justify-content: center;
             align-items: center;
             text-align: center;
@@ -1007,20 +1027,21 @@ main{
         .desweb__text h1{
             margin: auto;
             font-size: 50px;
+            text-align: center;
         }
         .desweb__text h2{   
             font-size: 30px;
             margin: auto;
         }
         .desweb__text p{
-            font-size: 18px;
+            font-size: 16px;
             width: 400px;
             margin: auto;
             padding-bottom: 10px;
         }
         .contenedor__imagenes{
             display: flex;
-            width: 100%;
+            width: 85%;
             margin: auto;
             justify-content: space-around;
             flex-direction: column;

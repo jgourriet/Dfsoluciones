@@ -1399,7 +1399,9 @@ main {
         width: 300px;
         height: 250px;
     }
-
+    .titulo__servicios{
+        padding-top: 35px;
+    }
     .titulo__servicios h3 {
         font-size: 15px;
     }

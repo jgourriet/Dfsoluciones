@@ -28,6 +28,7 @@
     align-items: center;
     padding: .5rem 2rem;
     width: 100%;
+    height: auto;
 }
 
 .contenedor__encabezado {
@@ -92,6 +93,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: auto;
 }
 
 .inicio__hero {
@@ -149,6 +151,7 @@ main {
     flex-direction: row;
     text-align: center;
     width: 100%;
+    height: auto;
 }
 
 .sep__info {
@@ -242,6 +245,8 @@ main {
     flex-direction: row;
     align-items: center;
     text-align: center;
+    width: 100%;
+    height: auto;
 }
 
 .objetivos {
@@ -302,6 +307,8 @@ main {
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
+    width: 100%;
+    height: auto;
 }
 
 .footer__redes {
@@ -355,7 +362,6 @@ main {
 /**------------------DESARROLLO WEB-------------------**/
 .desweb__contenedor {
     background-color: #3D393B;
-    ;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px auto 200px;
@@ -369,6 +375,8 @@ main {
 /*?---------------MAIN----------------*/
 .main__desweb {
     grid-area: desweb;
+    width: 100%;
+    height: auto;
 }
 
 .hero__desweb {
@@ -379,6 +387,7 @@ main {
     background-size: cover;
     background-position: center;
     display: flex;
+    height: auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -390,17 +399,19 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    height: auto;
 }
 
 .desweb__text h1 {
     font-size: 110px;
     font-weight: 800;
     color: white;
+    transition: 1s;
 }
 
 .desweb__text h1:hover {
     color: #4AD295;
-    transition: all .5s ease;
 }
 
 .desweb__text h2 {
@@ -525,6 +536,8 @@ main {
 /*?---------------MAIN----------------*/
 .main__servicios {
     grid-area: serv;
+    width: 100%;
+    height: auto;
 }
 
 .main__servicios1 {
@@ -534,7 +547,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 100px);
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -618,11 +631,10 @@ main {
 .main__servicios2 {
     background-image: url(../img/fondo-serv2.png);
     width: 100%;
-    height: calc(100vh - 100px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 100px);
+    height: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -687,7 +699,7 @@ main {
     grid-area: contacto;
     background-image: url(../img/contacto.png);
     width: 100%;
-    height: calc(100vh - 100px);
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -782,12 +794,14 @@ main {
 /*?---------------MAIN----------------*/
 .main__nosotros {
     grid-area: nosotros;
+    width: 100%;
+    height: auto;
 }
 
 .main__sobre {
     background-image: url(../img/nosotros.png);
     width: 100%;
-    height: calc(100vh - 100px);
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1075,7 +1089,7 @@ main {
         left: -100%;
         background: #3d393bea;
         width: 100%;
-        height: 50vh;
+        height: auto;
         right: 0;
         border-radius: 0px 0px 10px 0px;
     }

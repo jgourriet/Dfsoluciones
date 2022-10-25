@@ -1413,9 +1413,11 @@ main {
         width: 300px;
         height: 250px;
     }
-    .titulo__servicios{
+
+    .titulo__servicios {
         padding-top: 35px;
     }
+
     .titulo__servicios h3 {
         font-size: 15px;
     }
@@ -1466,12 +1468,15 @@ main {
     .hero-page h1 {
         font-size: 35px;
     }
-    .hero-page2{
+
+    .hero-page2 {
         margin-bottom: 25px;
     }
+
     .column-half h2 {
         font-size: 25px;
     }
+
     .form {
         width: 95%;
     }

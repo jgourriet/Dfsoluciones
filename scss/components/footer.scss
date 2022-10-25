@@ -1,0 +1,54 @@
+@import "../base/media";
+/*------------FOOTER------------*/
+.footer {
+    background-image: url(../img/fondo-footer.png);
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    .footer__redes {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        img {
+            padding: 15px;
+            transition: 1s ease;
+            &:hover {
+                transform: scale(1.5);
+            }
+        }
+    }
+    .footer__fin {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-items: start;
+        align-items: center;
+        text-align: center;
+        h3 {
+            color: white;
+            font-weight: 700;
+        }
+        p {
+            width: 200px;
+            font-size: 10px;
+            font-weight: 400;
+            color: white;
+        }
+    }
+    .mapa{
+        h4 {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            text-decoration: underline;
+            font-weight: 700;
+        }
+        iframe {
+            border-radius: 10px;
+        }
+    }
+}

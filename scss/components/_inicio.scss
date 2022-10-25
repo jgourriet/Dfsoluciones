@@ -1,0 +1,202 @@
+@import "../base/media";
+/*---------------MAIN INICIO----------------*/
+
+.inicio__contenedor {
+    background-color: #3D393B;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px auto 200px;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+        main {
+            grid-area: main;
+            .main__hero {
+                background-image: url(../img/main__hero.png);
+                width: 100%;
+                height: calc(100vh - 100px);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                .inicio__hero {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    h3 {
+                        margin-top: 100px;
+                        font-weight: 400;
+                        color: rgb(255, 255, 255);
+                        font-size: 45px;
+                        text-align: center;
+                        text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
+                    }
+                    h2 {
+                        margin-top: 20px;
+                        color: #ffffff;
+                        font-size: 100px;
+                        font-weight: 900;
+                        width: 1000px;
+                        text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
+                        text-align: center;
+                    }
+                    p {
+                        color: rgb(248, 248, 248);
+                        font-size: 18px;
+                        width: 450px;
+                        text-align: center;
+                    }
+                    .hero__boton {
+                        margin-top: 50px;
+                        text-decoration: none;
+                        color: rgb(255, 255, 255);
+                        font-size: 30px;
+                        font-weight: 800;
+                        transition: 2s;
+                        text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
+                        &:hover {
+                            color: #3D393B;
+                            border-radius: 20px;
+                            background-color: #ffffff86;
+                            transform: scale(1.2);
+                        }
+                    }
+                }
+            }
+            .cont__sep {
+                background-color: #3D393B;
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                text-align: center;
+                width: 100%;
+                height: auto;
+                .sep__info {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                    h2 {
+                        color: #4AD295;
+                        margin: 50px;
+                        font-size: 30px;
+                        font-weight: 700;
+                    }
+                    p {
+                        color: #ffffff;
+                        width: 600px;
+                        font-weight: 300;
+                        font-size: 18px;
+                    }
+                }
+                .sep__cont {
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                        margin: 10px;
+                    }
+                    p {
+                        width: 350px;
+                        margin: 25px;
+                        font-weight: 300;
+                        font-size: 18px;
+                        color: white;
+                    }
+                    h3 {
+                        width: 100px;
+                        padding: 10px;
+                        margin: 25px;
+                        color: #4AD295;
+                    }
+                    .adwords {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: row;
+                        align-items: center;
+                        width: 100%;
+                        height: 120px;
+                    }
+                    .faceb {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: row;
+                        align-items: center;
+                        width: 100%;
+                        height: 120px;
+                    }
+                    .insta {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: row;
+                        align-items: center;
+                        width: 100%;
+                        height: 120px;
+                    }
+                }
+            }
+            .inicio__objetivos {
+                background-image: url(../img/fondo-objetivos.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: row;
+                align-items: center;
+                text-align: center;
+                width: 100%;
+                height: auto;
+                .objetivos {
+                    display: flex;
+                    justify-content: start;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                    height: 450px;
+                    margin: 30px;
+                    border-radius: 10px;
+                    img {
+                        margin-top: 50px;
+                        border: #4AD295 solid 3px;
+                        padding: 30px;
+                        border-radius: 100%;
+                        transition: 2s ease;
+                        &:hover {
+                            transform: scale(1.2);
+                            background-color: #4AD295;
+                        }
+                    }
+                    h3 {
+                        color: white;
+                        width: 300px;
+                        font-weight: 800;
+                        font-size: 25px;
+                        margin-top: 30px;
+                    }
+                    p {
+                        font-weight: 400;
+                        font-size: 18px;
+                        margin-top: 30px;
+                        width: 300px;
+                        color: white;
+                    }
+                }
+            }
+            .wtp {
+                position: fixed;
+                bottom: 1%;
+                right: 0.5%;
+                transition: 2s ease;
+            }
+        }
+}

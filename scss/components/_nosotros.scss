@@ -1,0 +1,73 @@
+@import "../base/media";
+/*-------------NOSOTROS-------------*/
+.nosotros__contenedor {
+    background-color: #3D393B;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px auto 200px;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header header"
+        "nosotros nosotros"
+        "footer footer";
+        .main__nosotros {
+            grid-area: nosotros;
+            width: 100%;
+            height: auto;
+            .main__sobre {
+                background-image: url(../img/nosotros.png);
+                width: 100%;
+                height: auto;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                color: #FFFFFF;
+                text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
+                h1 {
+                    font-size: 100px;
+                    font-weight: 800;
+                    border-bottom: 3px #4AD295 solid;
+                    padding: 10px;
+                }
+                h3 {
+                    font-size: 50px;
+                    padding: 30px;
+                }
+                p {
+                    color: #ffffff;
+                    font-size: 20px;
+                    text-align: center;
+                    padding: 10px;
+                    width: 900px;
+                    font-weight: 500;
+                    bottom: 5px;
+                }
+            }
+            .main__valores {
+                width: 85%;
+                margin: auto;
+                border-bottom: #4AD295 solid 3px;
+                h5 {
+                    font-size: 70px;
+                    font-weight: 800;
+                    text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
+                }
+                p {
+                    font-size: 30px;
+                    font-weight: 700;
+                    text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
+                }
+            }
+            .wtp {
+                position: fixed;
+                bottom: 1%;
+                right: 0.5%;
+                transition: 2s ease;
+            }
+        }
+}
+

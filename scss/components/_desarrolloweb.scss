@@ -1,3 +1,4 @@
+@import "../base/variables";
 @import "../base/media";
 /*-----------DESARROLLO WEB----------*/
 .desweb__contenedor {
@@ -20,21 +21,13 @@
             background-image: url(../img/Desarrolloweb.png);
             width: 100%;
             height: calc(100vh - 100px);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            display: flex;
+            @extend %fondoimg;
+            @include flex (flex, center, center, column);
             height: auto;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
             text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
 
             .desweb__text {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
+                @include flex (flex, center, center, column);
                 width: 100%;
                 height: auto;
 

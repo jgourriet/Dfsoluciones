@@ -4,6 +4,16 @@
   padding: 0%;
   font-family: 'League Spartan', sans-serif; }
 
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .servicios__contenedor .main__servicios .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .servicios__contenedor .main__servicios .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {
   .inicio__contenedor main .main__hero .inicio__hero h2 {
@@ -409,6 +419,11 @@
   .contenedor__encabezado .menu #check {
     display: none; }
 
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .servicios__contenedor .main__servicios .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {
   .inicio__contenedor main .main__hero .inicio__hero h2 {
@@ -785,10 +800,7 @@
     .inicio__contenedor main .main__hero {
       background-image: url(../img/main__hero.png);
       width: 100%;
-      height: calc(100vh - 100px);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center; }
+      height: calc(100vh - 100px); }
       .inicio__contenedor main .main__hero .inicio__hero {
         display: flex;
         justify-content: center;
@@ -831,15 +843,15 @@
       background-color: #3D393B;
       display: flex;
       justify-content: center;
+      align-items: center;
       flex-direction: row;
-      text-align: center;
       width: 100%;
       height: auto; }
       .inicio__contenedor main .cont__sep .sep__info {
         display: flex;
         justify-content: center;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         width: 100%;
         height: 100%; }
         .inicio__contenedor main .cont__sep .sep__info h2 {
@@ -855,8 +867,8 @@
       .inicio__contenedor main .cont__sep .sep__cont {
         display: flex;
         justify-content: space-evenly;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         width: 100%;
         height: 100%; }
         .inicio__contenedor main .cont__sep .sep__cont img {
@@ -877,41 +889,38 @@
         .inicio__contenedor main .cont__sep .sep__cont .adwords {
           display: flex;
           justify-content: center;
-          flex-direction: row;
           align-items: center;
+          flex-direction: row;
           width: 100%;
           height: 120px; }
         .inicio__contenedor main .cont__sep .sep__cont .faceb {
           display: flex;
           justify-content: center;
-          flex-direction: row;
           align-items: center;
+          flex-direction: row;
           width: 100%;
           height: 120px; }
         .inicio__contenedor main .cont__sep .sep__cont .insta {
           display: flex;
           justify-content: center;
-          flex-direction: row;
           align-items: center;
+          flex-direction: row;
           width: 100%;
           height: 120px; }
     .inicio__contenedor main .inicio__objetivos {
       background-image: url(../img/fondo-objetivos.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
       display: flex;
       justify-content: space-evenly;
-      flex-direction: row;
       align-items: center;
+      flex-direction: row;
       text-align: center;
       width: 100%;
       height: auto; }
       .inicio__contenedor main .inicio__objetivos .objetivos {
         display: flex;
         justify-content: start;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         width: 100%;
         height: 450px;
         margin: 30px;
@@ -942,6 +951,11 @@
       bottom: 1%;
       right: 0.5%;
       transition: 2s ease; }
+
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .servicios__contenedor .main__servicios .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {
@@ -1322,14 +1336,11 @@
       background-image: url(../img/Desarrolloweb.png);
       width: 100%;
       height: calc(100vh - 100px);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
       display: flex;
-      height: auto;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      height: auto;
       text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61); }
       .desweb__contenedor .main__desweb .hero__desweb .desweb__text {
         display: flex;
@@ -1421,6 +1432,11 @@
   bottom: 1%;
   right: 0.5%;
   transition: 2s ease; }
+
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .servicios__contenedor .main__servicios .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {
@@ -1788,9 +1804,6 @@
 /*---------------SERVICIOS-------------------*/
 .servicios__contenedor {
   background-color: #3D393B;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100px auto 200px;
@@ -1804,20 +1817,17 @@
       background-image: url(../img/fondo-serv.png);
       width: 100%;
       height: calc(100vh - 100px);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
       height: auto;
       display: flex;
       justify-content: center;
-      flex-direction: column;
-      align-items: center; }
+      align-items: center;
+      flex-direction: column; }
       .servicios__contenedor .main__servicios .main__servicios1 .titulo__servicios {
         grid-area: titulo;
         display: flex;
         justify-content: center;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         width: 100%;
         text-align: center;
         margin-top: 10px; }
@@ -1842,15 +1852,15 @@
       .servicios__contenedor .main__servicios .main__servicios1 .serv__1 {
         display: flex;
         justify-content: center;
-        flex-direction: row;
         align-items: center;
+        flex-direction: row;
         width: 100%;
         margin: auto; }
         .servicios__contenedor .main__servicios .main__servicios1 .serv__1 .items1 {
           display: flex;
           justify-content: center;
-          flex-direction: column;
           align-items: center;
+          flex-direction: column;
           width: 300px;
           height: 500px;
           padding: 20px;
@@ -1873,26 +1883,23 @@
     .servicios__contenedor .main__servicios .main__servicios2 {
       background-image: url(../img/fondo-serv2.png);
       width: 100%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
       height: auto;
       display: flex;
       justify-content: center;
-      flex-direction: column;
-      align-items: center; }
+      align-items: center;
+      flex-direction: column; }
       .servicios__contenedor .main__servicios .main__servicios2 .serv__2 {
         display: flex;
         justify-content: center;
-        flex-direction: row;
         align-items: center;
+        flex-direction: row;
         width: 100%;
         height: 100vh; }
         .servicios__contenedor .main__servicios .main__servicios2 .serv__2 .items2 {
           display: flex;
           justify-content: center;
-          flex-direction: column;
           align-items: center;
+          flex-direction: column;
           width: 300px;
           height: 500px;
           padding: 20px;
@@ -1917,6 +1924,11 @@
       bottom: 1%;
       right: 0.5%;
       transition: 2s ease; }
+
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .servicios__contenedor .main__servicios .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {
@@ -2297,13 +2309,10 @@
       background-image: url(../img/nosotros.png);
       width: 100%;
       height: auto;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
       display: flex;
       justify-content: center;
-      flex-direction: column;
       align-items: center;
+      flex-direction: column;
       color: #FFFFFF;
       text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61); }
       .nosotros__contenedor .main__nosotros .main__sobre h1 {
@@ -2339,6 +2348,11 @@
       bottom: 1%;
       right: 0.5%;
       transition: 2s ease; }
+
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .servicios__contenedor .main__servicios .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {
@@ -2715,10 +2729,7 @@
     grid-area: contacto;
     background-image: url(../img/contacto.png);
     width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
+    height: auto; }
     .contacto__contenedor .main__contacto .hero-page h1 {
       color: #4AD295;
       margin-top: 20px;
@@ -2734,9 +2745,9 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         width: 85%;
         height: 85%;
         margin: auto;
@@ -2775,6 +2786,11 @@
       bottom: 1%;
       right: 0.5%;
       transition: 2s ease; }
+
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .servicios__contenedor .main__servicios .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {
@@ -3145,15 +3161,15 @@
   grid-area: footer;
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
   align-items: center;
+  flex-direction: row;
   width: 100%;
   height: auto; }
   .footer .footer__redes {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    align-items: center; }
+    align-items: center;
+    flex-direction: row; }
     .footer .footer__redes img {
       padding: 15px;
       transition: 1s ease; }
@@ -3162,9 +3178,9 @@
   .footer .footer__fin {
     padding: 5px;
     display: flex;
-    flex-direction: column;
-    justify-items: start;
+    justify-content: start;
     align-items: center;
+    flex-direction: column;
     text-align: center; }
     .footer .footer__fin h3 {
       color: white;

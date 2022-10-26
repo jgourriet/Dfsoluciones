@@ -1,3 +1,4 @@
+@import "../base/variables";
 @import "../base/media";
 /*-------------CONTACTO------------*/
 .contacto__contenedor {
@@ -16,9 +17,7 @@
         background-image: url(../img/contacto.png);
         width: 100%;
         height: auto;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        @extend %fondoimg;
 
         .hero-page {
             h1 {
@@ -39,10 +38,7 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: 1fr;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                @include flex (flex, center, center, column);
                 width: 85%;
                 height: 85%;
                 margin: auto;

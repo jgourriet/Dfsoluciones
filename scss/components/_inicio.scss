@@ -1,3 +1,4 @@
+@import "../base/variables";
 @import "../base/media";
 /*---------------MAIN INICIO----------------*/
 
@@ -17,14 +18,9 @@
                 background-image: url(../img/main__hero.png);
                 width: 100%;
                 height: calc(100vh - 100px);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
+                @extend %fondoimg;
                 .inicio__hero {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
+                    @include flex(flex, center, center, column);
                     h3 {
                         margin-top: 100px;
                         font-weight: 400;
@@ -67,17 +63,11 @@
             }
             .cont__sep {
                 background-color: #3D393B;
-                display: flex;
-                justify-content: center;
-                flex-direction: row;
-                text-align: center;
+                @include flex(flex, center, center, row);
                 width: 100%;
                 height: auto;
                 .sep__info {
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: column;
-                    align-items: center;
+                    @include flex(flex, center, center, column);
                     width: 100%;
                     height: 100%;
                     h2 {
@@ -94,10 +84,7 @@
                     }
                 }
                 .sep__cont {
-                    display: flex;
-                    justify-content: space-evenly;
-                    flex-direction: column;
-                    align-items: center;
+                    @include flex (flex, space-evenly, center, column);
                     width: 100%;
                     height: 100%;
                     img {
@@ -119,26 +106,17 @@
                         color: #4AD295;
                     }
                     .adwords {
-                        display: flex;
-                        justify-content: center;
-                        flex-direction: row;
-                        align-items: center;
+                        @include flex (flex, center, center, row);
                         width: 100%;
                         height: 120px;
                     }
                     .faceb {
-                        display: flex;
-                        justify-content: center;
-                        flex-direction: row;
-                        align-items: center;
+                        @include flex (flex, center, center, row);
                         width: 100%;
                         height: 120px;
                     }
                     .insta {
-                        display: flex;
-                        justify-content: center;
-                        flex-direction: row;
-                        align-items: center;
+                        @include flex (flex, center, center, row);
                         width: 100%;
                         height: 120px;
                     }
@@ -146,21 +124,13 @@
             }
             .inicio__objetivos {
                 background-image: url(../img/fondo-objetivos.png);
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-                display: flex;
-                justify-content: space-evenly;
-                flex-direction: row;
-                align-items: center;
+                @extend %fondoimg;
+                @include flex(flex, space-evenly, center, row);
                 text-align: center;
                 width: 100%;
                 height: auto;
                 .objetivos {
-                    display: flex;
-                    justify-content: start;
-                    flex-direction: column;
-                    align-items: center;
+                    @include flex(flex, start, center, column);
                     width: 100%;
                     height: 450px;
                     margin: 30px;

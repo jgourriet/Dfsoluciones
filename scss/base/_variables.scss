@@ -1,0 +1,35 @@
+//! MIS VARIABLES
+
+//? COLORES 
+$color-primario: #4AD295;
+$color-secundario:#3D393B;
+$color-terciario: white;
+
+//! EXTENDS
+// @extend
+%flexrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+%flexcolumn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+%fondoimg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+//! MIXIN
+// @include
+@mixin flex ($flex, $juistify, $align, $direction){
+    display: $flex;
+    justify-content: $juistify;
+    align-items: $align;
+    flex-direction: $direction;
+}

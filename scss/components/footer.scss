@@ -1,19 +1,14 @@
+@import "../base/variables";
 @import "../base/media";
 /*------------FOOTER------------*/
 .footer {
     background-image: url(../img/fondo-footer.png);
     grid-area: footer;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
+    @include flex (flex, space-around, center, row);
     width: 100%;
     height: auto;
     .footer__redes {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        align-items: center;
+        @include flex (flex, space-around, center, row);
         img {
             padding: 15px;
             transition: 1s ease;
@@ -24,10 +19,7 @@
     }
     .footer__fin {
         padding: 5px;
-        display: flex;
-        flex-direction: column;
-        justify-items: start;
-        align-items: center;
+        @include flex (flex, start, center, column);
         text-align: center;
         h3 {
             color: white;

@@ -2,7 +2,7 @@
 @import "../base/media";
 /*---------------SERVICIOS-------------------*/
 .servicios__contenedor {
-    background-color: #3D393B;
+    background-color: $color-secundario;
     @extend %fondoimg;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -30,7 +30,7 @@
                     text-align: center;
                     margin-top: 10px;
                     h3 {
-                        color: #ffffff;
+                        color: $color-terciario;
                         font-weight: 700;
                         margin-top: 15px;
                         text-align: center;
@@ -38,7 +38,7 @@
                         text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
                     }
                     h2 {
-                        color: #4AD295;
+                        color: $color-primario;
                         font-weight: 800;
                         margin: 10px;
                         font-size: 30px;
@@ -47,7 +47,7 @@
                         margin: 10px;
                         font-size: 20px;
                         width: 700px;
-                        color: white;
+                        color: $color-terciario;
                         font-weight: 400;
                     }
                 }
@@ -70,13 +70,13 @@
                         h3 {
                             font-size: 25px;
                             padding: 10px;
-                            color: #4AD295;
+                            color: $color-primario;
                         }
                         p {
                             font-weight: 400;
                             font-size: 20px;
                             padding: 5px;
-                            color: white;
+                            color: $color-terciario;
                         }
                     }
                 }
@@ -106,13 +106,13 @@
                         h3 {
                             font-size: 25px;
                             padding: 10px;
-                            color: #4AD295;
+                            color: $color-primario;
                         }
                         p {
                             font-weight: 400;
                             font-size: 20px;
                             padding: 5px;
-                            color: white;
+                            color: $color-terciario;
                         }
                     }
                 }

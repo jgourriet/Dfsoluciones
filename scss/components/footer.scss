@@ -22,19 +22,19 @@
         @include flex (flex, start, center, column);
         text-align: center;
         h3 {
-            color: white;
+            color: $color-terciario;
             font-weight: 700;
         }
         p {
             width: 200px;
             font-size: 10px;
             font-weight: 400;
-            color: white;
+            color: $color-terciario;
         }
     }
     .mapa{
         h4 {
-            color: rgb(255, 255, 255);
+            color: $color-terciario;
             text-align: center;
             text-decoration: underline;
             font-weight: 700;

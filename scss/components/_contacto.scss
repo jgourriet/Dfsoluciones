@@ -3,7 +3,7 @@
 
 /*-------------CONTACTO------------*/
 .contacto__contenedor {
-    background-color: #3D393B;
+    background-color: $color-secundario;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px auto 200px;
@@ -22,7 +22,7 @@
 
         .hero-page {
             h1 {
-                color: #4AD295;
+                color: $color-primario;
                 margin-top: 20px;
                 font-size: 70px;
                 font-weight: 700;
@@ -47,12 +47,12 @@
 
                 .column-half {
                     h2 {
-                        color: white;
+                        color: $color-terciario;
                         font-size: 55px;
                     }
 
                     p {
-                        color: white;
+                        color: $color-terciario;
                         width: 50%;
                         margin: auto;
                         font-size: 18px;
@@ -70,13 +70,13 @@
                     textarea {
                         margin: .5rem 0;
                         padding: .5rem .2rem;
-                        border-bottom: 3px solid #4AD295;
+                        border-bottom: 3px solid $color-primario;
                     }
 
                     input {
                         margin: .5rem 0;
                         padding: .5rem .2rem;
-                        border-bottom: 3px solid #4AD295;
+                        border-bottom: 3px solid $color-primario;
                     }
 
                     button {
@@ -84,8 +84,8 @@
                         border: none;
                         width: 100%;
                         padding: .5rem 1rem;
-                        background-color: #4AD295;
-                        color: #fff;
+                        background-color: $color-primario;
+                        color: $color-terciario;
                         font-size: 1.1rem;
                     }
                 }

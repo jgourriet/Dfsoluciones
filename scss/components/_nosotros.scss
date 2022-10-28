@@ -2,7 +2,7 @@
 @import "../base/media";
 /*-------------NOSOTROS-------------*/
 .nosotros__contenedor {
-    background-color: #3D393B;
+    background-color: $color-secundario;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px auto 200px;
@@ -21,12 +21,12 @@
                 height: auto;
                 @extend %fondoimg;
                 @include flex (flex, center, center, column);
-                color: #FFFFFF;
+                color: $color-terciario;
                 text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
                 h1 {
                     font-size: 100px;
                     font-weight: 800;
-                    border-bottom: 3px #4AD295 solid;
+                    border-bottom: 3px $color-primario solid;
                     padding: 10px;
                 }
                 h3 {
@@ -34,7 +34,7 @@
                     padding: 30px;
                 }
                 p {
-                    color: #ffffff;
+                    color: $color-terciario;
                     font-size: 20px;
                     text-align: center;
                     padding: 10px;
@@ -46,7 +46,7 @@
             .main__valores {
                 width: 85%;
                 margin: auto;
-                border-bottom: #4AD295 solid 3px;
+                border-bottom: $color-primario solid 3px;
                 h5 {
                     font-size: 70px;
                     font-weight: 800;

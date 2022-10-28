@@ -2,7 +2,7 @@
 @import "../base/media";
 /*-----------DESARROLLO WEB----------*/
 .desweb__contenedor {
-    background-color: #3D393B;
+    background-color: $color-secundario;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px auto 200px;
@@ -34,16 +34,16 @@
                 h1 {
                     font-size: 110px;
                     font-weight: 800;
-                    color: white;
+                    color: $color-terciario;
                     transition: 1s;
 
                     &:hover {
-                        color: #4AD295;
+                        color: $color-primario;
                     }
                 }
 
                 h2 {
-                    color: #3D393B;
+                    color: $color-terciario;
                     font-size: 50px;
                     font-weight: 700;
                     text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
@@ -54,7 +54,7 @@
                     font-size: 20px;
                     font-weight: 700;
                     width: 450px;
-                    color: white;
+                    color: $color-terciario;
                 }
             }
 
@@ -76,7 +76,7 @@
             grid-area: galeria;
 
             h2 {
-                color: white;
+                color: $color-terciario;
                 text-align: center;
                 margin: 20px 0 15px 0;
                 font-weight: 700;
@@ -84,7 +84,7 @@
             }
 
             .linea {
-                border-top: 5px solid #4AD295;
+                border-top: 5px solid $color-primario;
                 width: 85%;
                 margin: auto;
             }
@@ -124,7 +124,7 @@
                     transition: 1s ease;
                     overflow: hidden;
                     h2 {
-                        color: white;
+                        color: $color-terciario;
                         font-weight: 300;
                         font-size: 30px;
                         position: relative;

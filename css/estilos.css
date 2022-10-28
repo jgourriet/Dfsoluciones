@@ -401,11 +401,11 @@
       list-style-type: none;
       font-size: 20px; }
       .contenedor__encabezado .menu ul li:last-child {
-        background: #4ad295;
+        background: #4AD295;
         padding: .25rem .75rem;
         border-radius: .2rem; }
       .contenedor__encabezado .menu ul li a {
-        color: #fff;
+        color: white;
         text-decoration: none; }
   .contenedor__encabezado .menu .menu__icon {
     display: none;
@@ -815,14 +815,14 @@
           text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61); }
         .inicio__contenedor main .main__hero .inicio__hero h2 {
           margin-top: 20px;
-          color: #ffffff;
+          color: white;
           font-size: 100px;
           font-weight: 900;
           width: 1000px;
           text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
           text-align: center; }
         .inicio__contenedor main .main__hero .inicio__hero p {
-          color: #f8f8f8;
+          color: white;
           font-size: 18px;
           width: 450px;
           text-align: center; }
@@ -860,7 +860,7 @@
           font-size: 30px;
           font-weight: 700; }
         .inicio__contenedor main .cont__sep .sep__info p {
-          color: #ffffff;
+          color: white;
           width: 600px;
           font-weight: 300;
           font-size: 18px; }
@@ -1357,7 +1357,7 @@
           .desweb__contenedor .main__desweb .hero__desweb .desweb__text h1:hover {
             color: #4AD295; }
         .desweb__contenedor .main__desweb .hero__desweb .desweb__text h2 {
-          color: #3D393B;
+          color: white;
           font-size: 50px;
           font-weight: 700;
           text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61); }
@@ -1832,7 +1832,7 @@
         text-align: center;
         margin-top: 10px; }
         .servicios__contenedor .main__servicios .main__servicios1 .titulo__servicios h3 {
-          color: #ffffff;
+          color: white;
           font-weight: 700;
           margin-top: 15px;
           text-align: center;
@@ -2313,7 +2313,7 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      color: #FFFFFF;
+      color: white;
       text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61); }
       .nosotros__contenedor .main__nosotros .main__sobre h1 {
         font-size: 100px;
@@ -2324,7 +2324,7 @@
         font-size: 50px;
         padding: 30px; }
       .nosotros__contenedor .main__nosotros .main__sobre p {
-        color: #ffffff;
+        color: white;
         font-size: 20px;
         text-align: center;
         padding: 10px;
@@ -2779,7 +2779,7 @@
             width: 100%;
             padding: .5rem 1rem;
             background-color: #4AD295;
-            color: #fff;
+            color: white;
             font-size: 1.1rem; }
     .contacto__contenedor .main__contacto .wtp {
       position: fixed;

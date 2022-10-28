@@ -1,5 +1,6 @@
 @import "../base/variables";
 @import "../base/media";
+
 /*-------------CONTACTO------------*/
 .contacto__contenedor {
     background-color: #3D393B;
@@ -65,6 +66,7 @@
                 .formulario {
                     display: flex;
                     flex-flow: column;
+
                     textarea {
                         margin: .5rem 0;
                         padding: .5rem .2rem;

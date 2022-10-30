@@ -1,4 +1,5 @@
 @import "../base/variables";
+@import "../base/generales";
 @import "../base/media";
 /*-------------NOSOTROS-------------*/
 .nosotros__contenedor {
@@ -15,21 +16,21 @@
             grid-area: nosotros;
             width: 100%;
             height: auto;
-            .main__sobre {
+            .main_sobre {
                 background-image: url(../img/nosotros.png);
                 width: 100%;
-                height: auto;
+                height: calc(100vh - 100px);
                 @extend %fondoimg;
                 @include flex (flex, center, center, column);
                 color: $color-terciario;
                 text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
-                h1 {
+                h2 {
                     font-size: 100px;
                     font-weight: 800;
                     border-bottom: 3px $color-primario solid;
                     padding: 10px;
                 }
-                h3 {
+                h5 {
                     font-size: 50px;
                     padding: 30px;
                 }
@@ -43,10 +44,13 @@
                     bottom: 5px;
                 }
             }
-            .main__valores {
+            .main_valores {
                 width: 85%;
                 margin: auto;
                 border-bottom: $color-primario solid 3px;
+                .carousel-item{
+                    height: auto;
+                }
                 h5 {
                     font-size: 70px;
                     font-weight: 800;

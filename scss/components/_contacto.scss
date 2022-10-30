@@ -1,9 +1,10 @@
 @import "../base/variables";
+@import "../base/generales";
 @import "../base/media";
 
 /*-------------CONTACTO------------*/
 .contacto__contenedor {
-    background-color: $color-secundario;
+    background-color: #3D393B;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px auto 200px;
@@ -18,11 +19,13 @@
         background-image: url(../img/contacto.png);
         width: 100%;
         height: auto;
-        @extend %fondoimg;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
 
         .hero-page {
             h1 {
-                color: $color-primario;
+                color: #4AD295;
                 margin-top: 20px;
                 font-size: 70px;
                 font-weight: 700;
@@ -39,7 +42,10 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: 1fr;
-                @include flex (flex, center, center, column);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
                 width: 85%;
                 height: 85%;
                 margin: auto;
@@ -47,12 +53,12 @@
 
                 .column-half {
                     h2 {
-                        color: $color-terciario;
+                        color: white;
                         font-size: 55px;
                     }
 
                     p {
-                        color: $color-terciario;
+                        color: white;
                         width: 50%;
                         margin: auto;
                         font-size: 18px;
@@ -66,17 +72,16 @@
                 .formulario {
                     display: flex;
                     flex-flow: column;
-
                     textarea {
                         margin: .5rem 0;
                         padding: .5rem .2rem;
-                        border-bottom: 3px solid $color-primario;
+                        border-bottom: 3px solid #4AD295;
                     }
 
                     input {
                         margin: .5rem 0;
                         padding: .5rem .2rem;
-                        border-bottom: 3px solid $color-primario;
+                        border-bottom: 3px solid #4AD295;
                     }
 
                     button {
@@ -84,8 +89,8 @@
                         border: none;
                         width: 100%;
                         padding: .5rem 1rem;
-                        background-color: $color-primario;
-                        color: $color-terciario;
+                        background-color: #4AD295;
+                        color: #fff;
                         font-size: 1.1rem;
                     }
                 }

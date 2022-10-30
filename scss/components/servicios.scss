@@ -1,5 +1,7 @@
 @import "../base/variables";
+@import "../base/generales";
 @import "../base/media";
+
 /*---------------SERVICIOS-------------------*/
 .servicios__contenedor {
     background-color: $color-secundario;
@@ -12,116 +14,111 @@
         "header header"
         "serv serv"
         "footer footer";
-        .main__servicios {
-            grid-area: serv;
+
+    .main__servicios {
+        grid-area: serv;
+        width: 100%;
+        height: auto;
+
+        .main__servicios1 {
             width: 100%;
-            height: auto;
-            .main__servicios1 {
-                background-image: url(../img/fondo-serv.png);
+            height: calc(100vh - 100px);
+            @include flex (flex, space-around, center, column);
+            h1 {
                 width: 100%;
-                height: calc(100vh - 100px);
-                @extend %fondoimg;
-                height: auto;
-                @include flex (flex, center, center, column);
-                .titulo__servicios {
-                    grid-area: titulo;
-                    @include flex (flex, center, center, column);
-                    width: 100%;
-                    text-align: center;
-                    margin-top: 10px;
-                    h3 {
-                        color: $color-terciario;
-                        font-weight: 700;
-                        margin-top: 15px;
-                        text-align: center;
-                        font-size: 20px;
-                        text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
-                    }
-                    h2 {
-                        color: $color-primario;
-                        font-weight: 800;
-                        margin: 10px;
-                        font-size: 30px;
-                    }
-                    p {
-                        margin: 10px;
-                        font-size: 20px;
-                        width: 700px;
-                        color: $color-terciario;
-                        font-weight: 400;
-                    }
-                }
-                .serv__1 {
-                    @include flex (flex, center, center, row);
-                    width: 100%;
-                    margin: auto;
-                    .items1 {
-                        @include flex (flex, center, center, column);
-                        width: 300px;
-                        height: 500px;
-                        padding: 20px;
-                        margin: 15px;
-                        text-align: center;
-                        border: rgb(255, 255, 255) solid;
-                        border-radius: 20px;
-                        box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
-                        -webkit-box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
-                        -moz-box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
-                        h3 {
-                            font-size: 25px;
-                            padding: 10px;
-                            color: $color-primario;
-                        }
-                        p {
-                            font-weight: 400;
-                            font-size: 20px;
-                            padding: 5px;
-                            color: $color-terciario;
-                        }
-                    }
-                }
+                color: white;
+                font-weight: 800;
+                text-align: center;
+                font-size: 6rem;
+                margin-top: 5vh;
             }
-            .main__servicios2 {
-                background-image: url(../img/fondo-serv2.png);
+            h2{
                 width: 100%;
-                @extend %fondoimg;
-                height: auto;
-                @include flex (flex, center, center, column);
-                .serv__2 {
-                    @include flex (flex, center, center, row);
-                    width: 100%;
-                    height: 100vh;
-                    .items2 {
-                        @include flex (flex, center, center, column);
-                        width: 300px;
-                        height: 500px;
-                        padding: 20px;
-                        margin: 15px;
-                        text-align: center;
-                        border: rgb(255, 255, 255) solid;
-                        border-radius: 20px;
-                        box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
-                        -webkit-box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
-                        -moz-box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
-                        h3 {
-                            font-size: 25px;
-                            padding: 10px;
-                            color: $color-primario;
-                        }
-                        p {
-                            font-weight: 400;
-                            font-size: 20px;
-                            padding: 5px;
-                            color: $color-terciario;
-                        }
-                    }
-                }
+                color: $color-primario;
+                font-weight: 800;
+                text-align: center;
+                font-size: 2rem;
+                margin-top: 5vh;
             }
-            .wtp {
-                position: fixed;
-                bottom: 1%;
-                right: 0.5%;
-                transition: 2s ease;
+            p{
+                width: 60%;
+                color: $color-terciario;
+                font-weight: 400;
+                text-align: center;
+                font-size: 1.5rem;
+                margin-top: 5vh;
+            }
+
             }
         }
-}
+
+        .main__servicios2 {
+            background-color: $color-secundario;
+            width: 100%;
+            @extend %fondoimg;
+
+            .serv__2 {
+                display: flex;
+                width: 95%;
+                margin: auto;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                height: auto;
+
+                .items2 {
+                    @include flex (flex, space-around, center, column);
+                    width: 30%;
+                    height: auto;
+                    padding: 20px;
+                    margin: 15px;
+                    text-align: center;
+                    border: rgb(255, 255, 255) solid;
+                    border-radius: 20px;
+                    box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
+                    -webkit-box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
+                    -moz-box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
+
+                    h3 {
+                        font-size: 25px;
+                        padding: 10px;
+                        color: $color-primario;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 20px;
+                        padding: 5px;
+                        color: $color-terciario;
+                    }
+
+                    form {
+                        button {
+                            font-size: 15px;
+                            font-weight: 700;
+                            padding: 0.75rem;
+                            border-radius: 0.25rem;
+                            outline: none;
+                            margin-left: 0.5rem;
+                            border: 1px solid $color-primario;
+                            background-color: $color-primario;
+                            color: $color-secundario;
+                            cursor: pointer;
+                            transition: 0.3s ease-in-out;
+
+                            &:hover {
+                                background: transparent;
+                                color: $color-primario;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .wtp {
+            position: fixed;
+            bottom: 1%;
+            right: 0.5%;
+            transition: 2s ease;
+        }
+    }

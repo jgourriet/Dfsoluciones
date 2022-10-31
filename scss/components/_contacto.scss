@@ -23,11 +23,12 @@
 
         .hero-page {
             h1 {
-                color: #4AD295;
+                color: $color-primario;
                 margin-top: 20px;
                 font-size: 70px;
                 font-weight: 700;
                 text-align: center;
+                text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
             }
         }
 
@@ -40,10 +41,7 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: 1fr;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
+                @include flex(flex, center, center, column);
                 width: 85%;
                 height: 85%;
                 margin: auto;
@@ -51,13 +49,13 @@
 
                 .column-half {
                     h2 {
-                        color: white;
+                        color: $color-terciario;
                         font-size: 55px;
                         text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.603);
                     }
 
                     p {
-                        color: white;
+                        color: $color-terciario;
                         width: 50%;
                         margin: auto;
                         font-size: 18px;
@@ -75,13 +73,13 @@
                     textarea {
                         margin: .5rem 0;
                         padding: .5rem .2rem;
-                        border-bottom: 3px solid #4AD295;
+                        border-bottom: 3px solid $color-primario;
                     }
 
                     input {
                         margin: .5rem 0;
                         padding: .5rem .2rem;
-                        border-bottom: 3px solid #4AD295;
+                        border-bottom: 3px solid $color-primario;
                     }
 
                     button {
@@ -89,8 +87,8 @@
                         border: none;
                         width: 100%;
                         padding: .5rem 1rem;
-                        background-color: #4AD295;
-                        color: #fff;
+                        background-color: $color-primario;
+                        color: $color-terciario;
                         font-size: 1.1rem;
                         margin-bottom: 30px;
                     }

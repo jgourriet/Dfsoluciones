@@ -16,7 +16,7 @@
         "footer footer";
 
     .main__servicios {
-        background: #4ad295;
+        background: $color-primario;
         background: radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
         background: -webkit-radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
         background: -moz-radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
@@ -125,10 +125,4 @@
         }
     }
 
-    .wtp {
-        position: fixed;
-        bottom: 1%;
-        right: 0.5%;
-        transition: 2s ease;
-    }
 }

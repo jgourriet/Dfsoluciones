@@ -7,18 +7,6 @@ $color-terciario: white;
 
 //! EXTENDS
 // @extend
-%flexrow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-%flexcolumn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 %fondoimg{
     background-repeat: no-repeat;
     background-size: cover;

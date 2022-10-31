@@ -11,6 +11,12 @@
   padding: 0%;
   font-family: 'League Spartan', sans-serif; }
 
+.wtp {
+  position: fixed;
+  bottom: 1%;
+  right: 0.5%;
+  transition: 2s ease; }
+
 .inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,6 +31,12 @@
   margin: 0%;
   padding: 0%;
   font-family: 'League Spartan', sans-serif; }
+
+.wtp {
+  position: fixed;
+  bottom: 1%;
+  right: 0.5%;
+  transition: 2s ease; }
 
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {
@@ -412,6 +424,12 @@
   margin: 0%;
   padding: 0%;
   font-family: 'League Spartan', sans-serif; }
+
+.wtp {
+  position: fixed;
+  bottom: 1%;
+  right: 0.5%;
+  transition: 2s ease; }
 
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {
@@ -894,11 +912,6 @@
           margin-top: 30px;
           width: 300px;
           color: white; }
-    .inicio__contenedor main .wtp {
-      position: fixed;
-      bottom: 1%;
-      right: 0.5%;
-      transition: 2s ease; }
 
 .inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
@@ -909,6 +922,12 @@
   margin: 0%;
   padding: 0%;
   font-family: 'League Spartan', sans-serif; }
+
+.wtp {
+  position: fixed;
+  bottom: 1%;
+  right: 0.5%;
+  transition: 2s ease; }
 
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {
@@ -1278,20 +1297,22 @@
           font-size: 110px;
           font-weight: 800;
           color: white;
-          transition: 1s; }
+          transition: 1s;
+          text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
           .desweb__contenedor .main__desweb .hero__desweb .desweb__text h1:hover {
             color: #4AD295; }
         .desweb__contenedor .main__desweb .hero__desweb .desweb__text h2 {
           color: white;
           font-size: 50px;
           font-weight: 700;
-          text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61); }
+          text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
         .desweb__contenedor .main__desweb .hero__desweb .desweb__text p {
           text-align: center;
           font-size: 20px;
           font-weight: 700;
           width: 450px;
-          color: white; }
+          color: white;
+          text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
       .desweb__contenedor .main__desweb .hero__desweb .desweb__video iframe {
         width: 450px;
         height: 250px;
@@ -1306,7 +1327,8 @@
       text-align: center;
       margin: 20px 0 15px 0;
       font-weight: 700;
-      font-size: 50px; }
+      font-size: 50px;
+      text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
     .desweb__contenedor .main__desweb .galeria .linea {
       border-top: 5px solid #4AD295;
       width: 85%;
@@ -1350,12 +1372,6 @@
           text-align: center;
           transform: translate(-50%, -50%); }
 
-.wtp {
-  position: fixed;
-  bottom: 1%;
-  right: 0.5%;
-  transition: 2s ease; }
-
 .inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
@@ -1365,6 +1381,12 @@
   margin: 0%;
   padding: 0%;
   font-family: 'League Spartan', sans-serif; }
+
+.wtp {
+  position: fixed;
+  bottom: 1%;
+  right: 0.5%;
+  transition: 2s ease; }
 
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {
@@ -1710,7 +1732,7 @@
   gap: 0px 0px;
   grid-template-areas: "header header" "serv serv" "footer footer"; }
   .servicios__contenedor .main__servicios {
-    background: #4ad295;
+    background: #4AD295;
     background: radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
     background: -webkit-radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
     background: -moz-radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
@@ -1797,11 +1819,6 @@
           .servicios__contenedor .main__servicios2 .serv__2 .items2 a button:hover {
             background: transparent;
             color: #4AD295; }
-  .servicios__contenedor .wtp {
-    position: fixed;
-    bottom: 1%;
-    right: 0.5%;
-    transition: 2s ease; }
 
 .inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
@@ -1812,6 +1829,12 @@
   margin: 0%;
   padding: 0%;
   font-family: 'League Spartan', sans-serif; }
+
+.wtp {
+  position: fixed;
+  bottom: 1%;
+  right: 0.5%;
+  transition: 2s ease; }
 
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {
@@ -2200,11 +2223,6 @@
         font-size: 30px;
         font-weight: 700;
         text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61); }
-    .nosotros__contenedor .main__nosotros .wtp {
-      position: fixed;
-      bottom: 1%;
-      right: 0.5%;
-      transition: 2s ease; }
 
 .inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
@@ -2215,6 +2233,12 @@
   margin: 0%;
   padding: 0%;
   font-family: 'League Spartan', sans-serif; }
+
+.wtp {
+  position: fixed;
+  bottom: 1%;
+  right: 0.5%;
+  transition: 2s ease; }
 
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {
@@ -2618,11 +2642,6 @@
             color: #fff;
             font-size: 1.1rem;
             margin-bottom: 30px; }
-    .contacto__contenedor .main__contacto .wtp {
-      position: fixed;
-      bottom: 1%;
-      right: 0.5%;
-      transition: 2s ease; }
 
 .inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
@@ -2633,6 +2652,12 @@
   margin: 0%;
   padding: 0%;
   font-family: 'League Spartan', sans-serif; }
+
+.wtp {
+  position: fixed;
+  bottom: 1%;
+  right: 0.5%;
+  transition: 2s ease; }
 
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {

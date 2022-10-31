@@ -11,12 +11,12 @@
   padding: 0%;
   font-family: 'League Spartan', sans-serif; }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main_sobre {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main_sobre {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -123,9 +123,9 @@
     width: 90%; }
   .servicios__contenedor .main__servicios .main__servicios2 .serv__2 {
     width: 90%; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     width: 700px; }
   .nosotros__contenedor .main__nosotros .main_valores h5 {
     font-size: 40px; }
@@ -252,13 +252,13 @@
       width: 80%; }
     .contacto__contenedor .main__contacto .hero-page2 .wrap-two-column .column-half h2 {
       font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     text-align: center;
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     text-align: center;
     font-size: 35px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 474px; }
   .nosotros__contenedor .main__nosotros .main_valores {
@@ -340,11 +340,11 @@
 
 .nosotros__contenedor {
   grid-template-rows: 100px auto 100px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 60px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 345px; }
 
@@ -393,9 +393,9 @@
         text-decoration: none; }
   .contenedor__encabezado .menu .menu__icon {
     display: none;
-    margin-top: 25px;
+    margin-top: 10px;
     border-radius: 10px;
-    border: rgba(255, 255, 255, 0.658) solid; }
+    border: #4ad295 solid; }
     .contenedor__encabezado .menu .menu__icon img {
       width: 35px;
       height: 35px;
@@ -403,7 +403,7 @@
   .contenedor__encabezado .menu #check {
     display: none; }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main_sobre {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -510,9 +510,9 @@
     width: 90%; }
   .servicios__contenedor .main__servicios .main__servicios2 .serv__2 {
     width: 90%; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     width: 700px; }
   .nosotros__contenedor .main__nosotros .main_valores h5 {
     font-size: 40px; }
@@ -639,13 +639,13 @@
       width: 80%; }
     .contacto__contenedor .main__contacto .hero-page2 .wrap-two-column .column-half h2 {
       font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     text-align: center;
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     text-align: center;
     font-size: 35px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 474px; }
   .nosotros__contenedor .main__nosotros .main_valores {
@@ -727,11 +727,11 @@
 
 .nosotros__contenedor {
   grid-template-rows: 100px auto 100px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 60px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 345px; }
 
@@ -761,7 +761,7 @@
     .inicio__contenedor main .main__hero {
       background-image: url(../img/main__hero.png);
       width: 100%;
-      height: calc(100vh - 100px); }
+      height: auto; }
       .inicio__contenedor main .main__hero .inicio__hero {
         display: flex;
         justify-content: center;
@@ -771,34 +771,33 @@
           margin-top: 100px;
           font-weight: 400;
           color: white;
-          font-size: 45px;
+          font-size: 55px;
           text-align: center;
-          text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61); }
+          text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
         .inicio__contenedor main .main__hero .inicio__hero h2 {
-          margin-top: 20px;
+          margin-top: 25px;
           color: white;
           font-size: 100px;
           font-weight: 900;
           width: 1000px;
-          text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
+          text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
           text-align: center; }
         .inicio__contenedor main .main__hero .inicio__hero p {
           color: white;
           font-size: 18px;
           width: 450px;
-          text-align: center; }
+          text-align: center;
+          text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
         .inicio__contenedor main .main__hero .inicio__hero .hero__boton {
           margin-top: 50px;
           text-decoration: none;
           color: white;
-          font-size: 30px;
+          font-size: 45px;
           font-weight: 800;
+          margin-bottom: 50px;
           transition: 2s;
-          text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61); }
+          text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
           .inicio__contenedor main .main__hero .inicio__hero .hero__boton:hover {
-            color: #3D393B;
-            border-radius: 20px;
-            background-color: #ffffff86;
             transform: scale(1.2); }
     .inicio__contenedor main .cont__sep {
       background-color: #3D393B;
@@ -901,7 +900,7 @@
       right: 0.5%;
       transition: 2s ease; }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main_sobre {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -1008,9 +1007,9 @@
     width: 90%; }
   .servicios__contenedor .main__servicios .main__servicios2 .serv__2 {
     width: 90%; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     width: 700px; }
   .nosotros__contenedor .main__nosotros .main_valores h5 {
     font-size: 40px; }
@@ -1137,13 +1136,13 @@
       width: 80%; }
     .contacto__contenedor .main__contacto .hero-page2 .wrap-two-column .column-half h2 {
       font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     text-align: center;
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     text-align: center;
     font-size: 35px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 474px; }
   .nosotros__contenedor .main__nosotros .main_valores {
@@ -1225,11 +1224,11 @@
 
 .nosotros__contenedor {
   grid-template-rows: 100px auto 100px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 60px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 345px; }
 
@@ -1357,7 +1356,7 @@
   right: 0.5%;
   transition: 2s ease; }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main_sobre {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -1464,9 +1463,9 @@
     width: 90%; }
   .servicios__contenedor .main__servicios .main__servicios2 .serv__2 {
     width: 90%; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     width: 700px; }
   .nosotros__contenedor .main__nosotros .main_valores h5 {
     font-size: 40px; }
@@ -1593,13 +1592,13 @@
       width: 80%; }
     .contacto__contenedor .main__contacto .hero-page2 .wrap-two-column .column-half h2 {
       font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     text-align: center;
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     text-align: center;
     font-size: 35px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 474px; }
   .nosotros__contenedor .main__nosotros .main_valores {
@@ -1681,11 +1680,11 @@
 
 .nosotros__contenedor {
   grid-template-rows: 100px auto 100px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 60px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 345px; }
 
@@ -1711,6 +1710,10 @@
   gap: 0px 0px;
   grid-template-areas: "header header" "serv serv" "footer footer"; }
   .servicios__contenedor .main__servicios {
+    background: #4ad295;
+    background: radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
+    background: -webkit-radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
+    background: -moz-radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
     grid-area: serv;
     width: 100%;
     height: auto; }
@@ -1727,21 +1730,24 @@
         font-weight: 800;
         text-align: center;
         font-size: 6rem;
-        margin-top: 5vh; }
+        margin-top: 5vh;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
       .servicios__contenedor .main__servicios .main__servicios1 h2 {
         width: 100%;
         color: #4AD295;
         font-weight: 800;
         text-align: center;
         font-size: 2rem;
-        margin-top: 5vh; }
+        margin-top: 5vh;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
       .servicios__contenedor .main__servicios .main__servicios1 p {
         width: 60%;
         color: white;
         font-weight: 400;
         text-align: center;
         font-size: 1.5rem;
-        margin-top: 5vh; }
+        margin-top: 5vh;
+        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
   .servicios__contenedor .main__servicios2 {
     background-color: #3D393B;
     width: 100%; }
@@ -1776,7 +1782,7 @@
           font-size: 20px;
           padding: 5px;
           color: white; }
-        .servicios__contenedor .main__servicios2 .serv__2 .items2 form button {
+        .servicios__contenedor .main__servicios2 .serv__2 .items2 a button {
           font-size: 15px;
           font-weight: 700;
           padding: 0.75rem;
@@ -1788,7 +1794,7 @@
           color: #3D393B;
           cursor: pointer;
           transition: 0.3s ease-in-out; }
-          .servicios__contenedor .main__servicios2 .serv__2 .items2 form button:hover {
+          .servicios__contenedor .main__servicios2 .serv__2 .items2 a button:hover {
             background: transparent;
             color: #4AD295; }
   .servicios__contenedor .wtp {
@@ -1797,7 +1803,7 @@
     right: 0.5%;
     transition: 2s ease; }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main_sobre {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -1904,9 +1910,9 @@
     width: 90%; }
   .servicios__contenedor .main__servicios .main__servicios2 .serv__2 {
     width: 90%; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     width: 700px; }
   .nosotros__contenedor .main__nosotros .main_valores h5 {
     font-size: 40px; }
@@ -2033,13 +2039,13 @@
       width: 80%; }
     .contacto__contenedor .main__contacto .hero-page2 .wrap-two-column .column-half h2 {
       font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     text-align: center;
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     text-align: center;
     font-size: 35px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 474px; }
   .nosotros__contenedor .main__nosotros .main_valores {
@@ -2121,11 +2127,11 @@
 
 .nosotros__contenedor {
   grid-template-rows: 100px auto 100px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 60px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 345px; }
 
@@ -2154,25 +2160,25 @@
     grid-area: nosotros;
     width: 100%;
     height: auto; }
-    .nosotros__contenedor .main__nosotros .main_sobre {
+    .nosotros__contenedor .main__nosotros .main__sobre {
       background-image: url(../img/nosotros.png);
       width: 100%;
-      height: calc(100vh - 100px);
+      height: auto;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       color: white;
       text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61); }
-      .nosotros__contenedor .main__nosotros .main_sobre h2 {
+      .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
         font-size: 100px;
         font-weight: 800;
         border-bottom: 3px #4AD295 solid;
         padding: 10px; }
-      .nosotros__contenedor .main__nosotros .main_sobre h5 {
+      .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
         font-size: 50px;
         padding: 30px; }
-      .nosotros__contenedor .main__nosotros .main_sobre p {
+      .nosotros__contenedor .main__nosotros .main__sobre .psobre {
         color: white;
         font-size: 20px;
         text-align: center;
@@ -2200,7 +2206,7 @@
       right: 0.5%;
       transition: 2s ease; }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main_sobre {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -2307,9 +2313,9 @@
     width: 90%; }
   .servicios__contenedor .main__servicios .main__servicios2 .serv__2 {
     width: 90%; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     width: 700px; }
   .nosotros__contenedor .main__nosotros .main_valores h5 {
     font-size: 40px; }
@@ -2436,13 +2442,13 @@
       width: 80%; }
     .contacto__contenedor .main__contacto .hero-page2 .wrap-two-column .column-half h2 {
       font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     text-align: center;
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     text-align: center;
     font-size: 35px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 474px; }
   .nosotros__contenedor .main__nosotros .main_valores {
@@ -2524,11 +2530,11 @@
 
 .nosotros__contenedor {
   grid-template-rows: 100px auto 100px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 60px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 345px; }
 
@@ -2557,10 +2563,7 @@
     grid-area: contacto;
     background-image: url(../img/contacto.png);
     width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
+    height: auto; }
     .contacto__contenedor .main__contacto .hero-page h1 {
       color: #4AD295;
       margin-top: 20px;
@@ -2585,12 +2588,14 @@
         text-align: center; }
         .contacto__contenedor .main__contacto .hero-page2 .wrap-two-column .column-half h2 {
           color: white;
-          font-size: 55px; }
+          font-size: 55px;
+          text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.603); }
         .contacto__contenedor .main__contacto .hero-page2 .wrap-two-column .column-half p {
           color: white;
           width: 50%;
           margin: auto;
-          font-size: 18px; }
+          font-size: 18px;
+          text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
       .contacto__contenedor .main__contacto .hero-page2 .form {
         width: 50%; }
         .contacto__contenedor .main__contacto .hero-page2 .form .formulario {
@@ -2611,14 +2616,15 @@
             padding: .5rem 1rem;
             background-color: #4AD295;
             color: #fff;
-            font-size: 1.1rem; }
+            font-size: 1.1rem;
+            margin-bottom: 30px; }
     .contacto__contenedor .main__contacto .wtp {
       position: fixed;
       bottom: 1%;
       right: 0.5%;
       transition: 2s ease; }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main_sobre {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -2725,9 +2731,9 @@
     width: 90%; }
   .servicios__contenedor .main__servicios .main__servicios2 .serv__2 {
     width: 90%; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     width: 700px; }
   .nosotros__contenedor .main__nosotros .main_valores h5 {
     font-size: 40px; }
@@ -2854,13 +2860,13 @@
       width: 80%; }
     .contacto__contenedor .main__contacto .hero-page2 .wrap-two-column .column-half h2 {
       font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     text-align: center;
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     text-align: center;
     font-size: 35px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 474px; }
   .nosotros__contenedor .main__nosotros .main_valores {
@@ -2942,11 +2948,11 @@
 
 .nosotros__contenedor {
   grid-template-rows: 100px auto 100px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 60px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 345px; }
 
@@ -2965,6 +2971,10 @@
 
 /*------------FOOTER------------*/
 .footer {
+  background: #4ad295;
+  background: linear-gradient(90deg, #4ad295 0%, #3d393b 20%);
+  background: -webkit-linear-gradient(90deg, #4ad295 0%, #3d393b 20%);
+  background: -moz-linear-gradient(90deg, #4ad295 0%, #3d393b 20%);
   grid-area: footer;
   display: flex;
   justify-content: space-around;
@@ -3102,9 +3112,9 @@
     width: 90%; }
   .servicios__contenedor .main__servicios .main__servicios2 .serv__2 {
     width: 90%; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     width: 700px; }
   .nosotros__contenedor .main__nosotros .main_valores h5 {
     font-size: 40px; }
@@ -3231,13 +3241,13 @@
       width: 80%; }
     .contacto__contenedor .main__contacto .hero-page2 .wrap-two-column .column-half h2 {
       font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     text-align: center;
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     text-align: center;
     font-size: 35px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 474px; }
   .nosotros__contenedor .main__nosotros .main_valores {
@@ -3319,11 +3329,11 @@
 
 .nosotros__contenedor {
   grid-template-rows: 100px auto 100px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h2 {
+  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
     font-size: 60px; }
-  .nosotros__contenedor .main__nosotros .main_sobre h5 {
+  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
     font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main_sobre p {
+  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
     font-size: 15px;
     width: 345px; }
 

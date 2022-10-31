@@ -1,31 +1,41 @@
 @import "../base/variables";
 @import "../base/generales";
 @import "../base/media";
+
 /*------------FOOTER------------*/
 .footer {
-    // background-image: url(../img/fondo-footer.png);
+    background: #4ad295;
+    background: linear-gradient(90deg,#4ad295 0%, #3d393b 20%);
+    background: -webkit-linear-gradient(90deg,#4ad295 0%, #3d393b 20%);
+    background: -moz-linear-gradient(90deg,#4ad295 0%, #3d393b 20%);
     grid-area: footer;
     @include flex (flex, space-around, center, row);
     width: 100%;
     height: auto;
+
     .footer__redes {
         @include flex (flex, space-around, center, row);
+
         img {
             padding: 15px;
             transition: 1s ease;
+
             &:hover {
                 transform: scale(1.5);
             }
         }
     }
+
     .footer__fin {
         padding: 5px;
         @include flex (flex, start, center, column);
         text-align: center;
+
         h3 {
             color: $color-terciario;
             font-weight: 700;
         }
+
         p {
             width: 200px;
             font-size: 10px;
@@ -33,13 +43,15 @@
             color: $color-terciario;
         }
     }
-    .mapa{
+
+    .mapa {
         h4 {
             color: $color-terciario;
             text-align: center;
             text-decoration: underline;
             font-weight: 700;
         }
+
         iframe {
             border-radius: 10px;
         }

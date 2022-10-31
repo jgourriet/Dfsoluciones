@@ -16,6 +16,10 @@
         "footer footer";
 
     .main__servicios {
+        background: #4ad295;
+        background: radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
+        background: -webkit-radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
+        background: -moz-radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
         grid-area: serv;
         width: 100%;
         height: auto;
@@ -24,6 +28,7 @@
             width: 100%;
             height: calc(100vh - 100px);
             @include flex (flex, space-around, center, column);
+
             h1 {
                 width: 100%;
                 color: white;
@@ -31,94 +36,99 @@
                 text-align: center;
                 font-size: 6rem;
                 margin-top: 5vh;
+                text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
             }
-            h2{
+
+            h2 {
                 width: 100%;
                 color: $color-primario;
                 font-weight: 800;
                 text-align: center;
                 font-size: 2rem;
                 margin-top: 5vh;
+                text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
             }
-            p{
+
+            p {
                 width: 60%;
                 color: $color-terciario;
                 font-weight: 400;
                 text-align: center;
                 font-size: 1.5rem;
                 margin-top: 5vh;
+                text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
             }
 
-            }
         }
+    }
 
-        .main__servicios2 {
-            background-color: $color-secundario;
-            width: 100%;
-            @extend %fondoimg;
+    .main__servicios2 {
+        background-color: $color-secundario;
+        width: 100%;
+        @extend %fondoimg;
 
-            .serv__2 {
-                display: flex;
-                width: 95%;
-                margin: auto;
-                justify-content: space-around;
-                flex-wrap: wrap;
+        .serv__2 {
+            display: flex;
+            width: 95%;
+            margin: auto;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            height: auto;
+
+            .items2 {
+                @include flex (flex, space-around, center, column);
+                width: 30%;
                 height: auto;
+                padding: 20px;
+                margin: 15px;
+                text-align: center;
+                border: rgb(255, 255, 255) solid;
+                border-radius: 20px;
+                box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
+                -webkit-box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
+                -moz-box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
 
-                .items2 {
-                    @include flex (flex, space-around, center, column);
-                    width: 30%;
-                    height: auto;
-                    padding: 20px;
-                    margin: 15px;
-                    text-align: center;
-                    border: rgb(255, 255, 255) solid;
-                    border-radius: 20px;
-                    box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
-                    -webkit-box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
-                    -moz-box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
+                h3 {
+                    font-size: 25px;
+                    padding: 10px;
+                    color: $color-primario;
+                }
 
-                    h3 {
-                        font-size: 25px;
-                        padding: 10px;
-                        color: $color-primario;
-                    }
+                p {
+                    font-weight: 400;
+                    font-size: 20px;
+                    padding: 5px;
+                    color: $color-terciario;
+                }
 
-                    p {
-                        font-weight: 400;
-                        font-size: 20px;
-                        padding: 5px;
-                        color: $color-terciario;
-                    }
+                a {
+                    button {
+                        font-size: 15px;
+                        font-weight: 700;
+                        padding: 0.75rem;
+                        border-radius: 0.25rem;
+                        outline: none;
+                        margin-left: 0.5rem;
+                        border: 1px solid $color-primario;
+                        background-color: $color-primario;
+                        color: $color-secundario;
+                        cursor: pointer;
+                        transition: 0.3s ease-in-out;
 
-                    form {
-                        button {
-                            font-size: 15px;
-                            font-weight: 700;
-                            padding: 0.75rem;
-                            border-radius: 0.25rem;
-                            outline: none;
-                            margin-left: 0.5rem;
-                            border: 1px solid $color-primario;
-                            background-color: $color-primario;
-                            color: $color-secundario;
-                            cursor: pointer;
-                            transition: 0.3s ease-in-out;
-
-                            &:hover {
-                                background: transparent;
-                                color: $color-primario;
-                            }
+                        &:hover {
+                            background: transparent;
+                            color: $color-primario;
                         }
                     }
                 }
             }
         }
-
-        .wtp {
-            position: fixed;
-            bottom: 1%;
-            right: 0.5%;
-            transition: 2s ease;
-        }
     }
+
+    .wtp {
+        position: fixed;
+        bottom: 1%;
+        right: 0.5%;
+        transition: 2s ease;
+    }
+}

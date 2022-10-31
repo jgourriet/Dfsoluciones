@@ -16,25 +16,25 @@
             grid-area: nosotros;
             width: 100%;
             height: auto;
-            .main_sobre {
+            .main__sobre {
                 background-image: url(../img/nosotros.png);
                 width: 100%;
-                height: calc(100vh - 100px);
+                height: auto;
                 @extend %fondoimg;
                 @include flex (flex, center, center, column);
                 color: $color-terciario;
                 text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
-                h2 {
+                .tsobre {
                     font-size: 100px;
                     font-weight: 800;
                     border-bottom: 3px $color-primario solid;
                     padding: 10px;
                 }
-                h5 {
+                .stsobre {
                     font-size: 50px;
                     padding: 30px;
                 }
-                p {
+                .psobre {
                     color: $color-terciario;
                     font-size: 20px;
                     text-align: center;

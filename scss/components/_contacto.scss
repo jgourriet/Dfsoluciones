@@ -19,9 +19,7 @@
         background-image: url(../img/contacto.png);
         width: 100%;
         height: auto;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        @extend %fondoimg;
 
         .hero-page {
             h1 {
@@ -55,6 +53,7 @@
                     h2 {
                         color: white;
                         font-size: 55px;
+                        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.603);
                     }
 
                     p {
@@ -62,6 +61,7 @@
                         width: 50%;
                         margin: auto;
                         font-size: 18px;
+                        text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
                     }
                 }
             }
@@ -92,6 +92,7 @@
                         background-color: #4AD295;
                         color: #fff;
                         font-size: 1.1rem;
+                        margin-bottom: 30px;
                     }
                 }
             }

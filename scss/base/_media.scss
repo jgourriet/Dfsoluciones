@@ -216,11 +216,11 @@
     
         .nosotros__contenedor{
             .main__nosotros{
-                .main_sobre{
-                    h2{
+                .main__sobre{
+                    .tsobre{
                         font-size: 70px;
                     }
-                    p {
+                    .psobre {
                         width: 700px;
                     }
                 
@@ -453,16 +453,16 @@
     
         .nosotros__contenedor{
             .main__nosotros{
-                .main_sobre{
-                    h2 {
+                .main__sobre{
+                    .tsobre {
                         text-align: center;
                         font-size: 70px;
                     }
-                    h5 {
+                    .stsobre {
                         text-align: center;
                         font-size: 35px;
                     }
-                    p {
+                    .psobre {
                         font-size: 15px;
                         width: 474px;
                     }
@@ -620,14 +620,14 @@
         .nosotros__contenedor {
             grid-template-rows: 100px auto 100px;
             .main__nosotros{
-                .main_sobre{
-                    h2 {
+                .main__sobre{
+                    .tsobre {
                         font-size: 60px;
                     }
-                    h5 {
+                    .stsobre{
                         font-size: 30px;
                     }
-                    p {
+                    .psobre {
                         font-size: 15px;
                         width: 345px;
                     }

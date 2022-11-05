@@ -65,7 +65,6 @@
         background-color: $color-secundario;
         width: 100%;
         @extend %fondoimg;
-
         .serv__2 {
             display: flex;
             width: 95%;
@@ -105,7 +104,7 @@
                         font-size: 15px;
                         font-weight: 700;
                         padding: 0.75rem;
-                        border-radius: 0.25rem;
+                        border-radius: 0.5rem;
                         outline: none;
                         margin-left: 0.5rem;
                         border: 1px solid $color-primario;

@@ -20,7 +20,11 @@
         height: auto;
         @extend %fondoimg;
 
-        .hero-page {
+        .hero-page2 {
+            max-width: 1200px;
+            margin: auto auto;
+            padding: 10px;
+            .hero-page {
             h1 {
                 color: $color-primario;
                 margin-top: 20px;
@@ -30,12 +34,6 @@
                 text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
             }
         }
-
-        .hero-page2 {
-            max-width: 1200px;
-            margin: auto auto;
-            padding: 10px;
-
             .wrap-two-column {
                 display: grid;
                 grid-template-columns: 1fr 1fr;

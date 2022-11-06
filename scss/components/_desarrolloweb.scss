@@ -30,7 +30,8 @@
                 width: 100%;
                 height: auto;
 
-                h1 {
+                h2 {
+                    margin-top: 10vh;
                     font-size: 110px;
                     font-weight: 800;
                     color: $color-terciario;
@@ -42,8 +43,8 @@
                     }
                 }
 
-                h2 {
-                    color: $color-terciario;
+                h3 {
+                    color: $color-primario;
                     font-size: 50px;
                     font-weight: 700;
                     text-shadow: 4px 4px 2px rgba(0,0,0,0.6);

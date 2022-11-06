@@ -288,16 +288,17 @@
         flex-direction: column;
         width: 100%;
         height: auto; }
-        .desweb__contenedor .main__desweb .hero__desweb .desweb__text h1 {
+        .desweb__contenedor .main__desweb .hero__desweb .desweb__text h2 {
+          margin-top: 10vh;
           font-size: 110px;
           font-weight: 800;
           color: white;
           transition: 1s;
           text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
-          .desweb__contenedor .main__desweb .hero__desweb .desweb__text h1:hover {
+          .desweb__contenedor .main__desweb .hero__desweb .desweb__text h2:hover {
             color: #4AD295; }
-        .desweb__contenedor .main__desweb .hero__desweb .desweb__text h2 {
-          color: white;
+        .desweb__contenedor .main__desweb .hero__desweb .desweb__text h3 {
+          color: #4AD295;
           font-size: 50px;
           font-weight: 700;
           text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
@@ -401,7 +402,7 @@
     .servicios__contenedor .main__servicios .main__servicios1 {
       background-image: url(../img/servicios.jpg);
       width: 100%;
-      height: calc(100vh - 100px);
+      height: calc(100vh- 100px);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -412,7 +413,7 @@
         font-weight: 800;
         text-align: center;
         font-size: 6rem;
-        margin-top: 5vh;
+        margin-top: 10vh;
         text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
       .servicios__contenedor .main__servicios .main__servicios1 h3 {
         width: 100%;
@@ -420,7 +421,7 @@
         font-weight: 800;
         text-align: center;
         font-size: 2rem;
-        margin-top: 5vh;
+        margin-top: 10vh;
         text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
       .servicios__contenedor .main__servicios .main__servicios1 p {
         width: 60%;
@@ -428,11 +429,13 @@
         font-weight: 400;
         text-align: center;
         font-size: 1.5rem;
-        margin-top: 5vh;
+        margin-top: 15vh;
+        margin-bottom: 10vh;
         text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
   .servicios__contenedor .main__servicios2 {
     background-color: #3D393B;
-    width: 100%; }
+    width: 100%;
+    height: auto; }
     .servicios__contenedor .main__servicios2 .serv__2 {
       display: flex;
       width: 95%;
@@ -520,6 +523,7 @@
       color: white;
       text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61); }
       .nosotros__contenedor .main__nosotros .main__sobre h2 {
+        margin-top: 10vh;
         font-size: 100px;
         font-weight: 800;
         border-bottom: 3px #4AD295 solid;
@@ -534,7 +538,7 @@
         padding: 10px;
         width: 900px;
         font-weight: 500;
-        bottom: 5px; }
+        margin-bottom: 8vh; }
     .nosotros__contenedor .main__nosotros .main_valores {
       width: 85%;
       margin: auto;
@@ -633,7 +637,7 @@
             background-color: #4AD295;
             color: white;
             font-size: 1.1rem;
-            margin-bottom: 30px; }
+            margin-bottom: 10vh; }
 
 .inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
@@ -729,9 +733,9 @@
       height: 70px;
       margin-top: 25px;
       padding: 10px; }
-  .desweb__contenedor .main__desweb .hero__desweb .desweb__text h1 {
-    font-size: 80px; }
   .desweb__contenedor .main__desweb .hero__desweb .desweb__text h2 {
+    font-size: 80px; }
+  .desweb__contenedor .main__desweb .hero__desweb .desweb__text h3 {
     margin-top: 25px;
     font-size: 40px; }
   .desweb__contenedor .main__desweb .hero__desweb .desweb__text p {
@@ -780,7 +784,7 @@
     margin: 0%; }
     .desweb__contenedor .main__desweb {
       width: 100%; }
-      .desweb__contenedor .main__desweb .hero__desweb .desweb__text h1 {
+      .desweb__contenedor .main__desweb .hero__desweb .desweb__text h2 {
         font-size: 65px; }
       .desweb__contenedor .main__desweb .galeria .contenedor__imagenes {
         width: 100%; }
@@ -893,9 +897,9 @@
     align-items: center; }
     .inicio__contenedor main .inicio__objetivos .objetivos {
       width: 100%; }
-  .desweb__contenedor .main__desweb .hero__desweb .desweb__text h1 {
-    font-size: 50px; }
   .desweb__contenedor .main__desweb .hero__desweb .desweb__text h2 {
+    font-size: 50px; }
+  .desweb__contenedor .main__desweb .hero__desweb .desweb__text h3 {
     font-size: 30px; }
   .desweb__contenedor .main__desweb .hero__desweb .desweb__text p {
     font-size: 16px;
@@ -981,9 +985,9 @@
           padding: 10px; }
   .desweb__contenedor {
     grid-template-rows: 100px auto 100px; }
-    .desweb__contenedor .main__desweb .hero__desweb .desweb__text h1 {
-      font-size: 40px; }
     .desweb__contenedor .main__desweb .hero__desweb .desweb__text h2 {
+      font-size: 40px; }
+    .desweb__contenedor .main__desweb .hero__desweb .desweb__text h3 {
       font-size: 30px; }
     .desweb__contenedor .main__desweb .hero__desweb .desweb__text p {
       width: 340px;

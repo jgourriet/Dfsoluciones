@@ -3,15 +3,13 @@
 
 /*------------FOOTER------------*/
 .footer {
-    background: #4ad295;
-    background: linear-gradient(90deg,#4ad295 0%, #3d393b 20%);
-    background: -webkit-linear-gradient(90deg,#4ad295 0%, #3d393b 20%);
-    background: -moz-linear-gradient(90deg,#4ad295 0%, #3d393b 20%);
+    background: rgb(61,57,59);
+background: linear-gradient(0deg, rgba(61,57,59,0.8995973389355743) 12%, rgba(74, 210, 149, 0.342) 100%);
     grid-area: footer;
     @include flex (flex, space-around, center, row);
     width: 100%;
     height: auto;
-
+    
     .footer__redes {
         @include flex (flex, space-around, center, row);
 

@@ -15,20 +15,18 @@
         "footer footer";
 
     .main__servicios {
-        background: $color-primario;
-        background: radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
-        background: -webkit-radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
-        background: -moz-radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
         grid-area: serv;
         width: 100%;
         height: auto;
 
         .main__servicios1 {
+            background-image: url(../img/servicios.jpg);
+            @extend %fondoimg;
             width: 100%;
             height: calc(100vh - 100px);
-            @include flex (flex, space-around, center, column);
+            @include flex (flex, center, center, column);
 
-            h1 {
+            h2 {
                 width: 100%;
                 color: white;
                 font-weight: 800;
@@ -38,7 +36,7 @@
                 text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
             }
 
-            h2 {
+            h3 {
                 width: 100%;
                 color: $color-primario;
                 font-weight: 800;
@@ -64,7 +62,6 @@
     .main__servicios2 {
         background-color: $color-secundario;
         width: 100%;
-        @extend %fondoimg;
         .serv__2 {
             display: flex;
             width: 95%;
@@ -74,13 +71,13 @@
             height: auto;
 
             .items2 {
+                background-color: #5c585a;
                 @include flex (flex, space-around, center, column);
                 width: 30%;
                 height: auto;
                 padding: 20px;
                 margin: 15px;
                 text-align: center;
-                border: rgb(255, 255, 255) solid;
                 border-radius: 20px;
                 box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
                 -webkit-box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);

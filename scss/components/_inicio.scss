@@ -40,8 +40,8 @@
                     }
                     p {
                         color: $color-terciario;
-                        font-size: 18px;
-                        width: 450px;
+                        font-size: 20px;
+                        width: 550px;
                         text-align: center;
                         text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
                     }
@@ -78,7 +78,7 @@
                     }
                     p {
                         color: $color-terciario;
-                        width: 95%;
+                        width: 90%;
                         font-weight: 300;
                         font-size: 18px;
                         margin: auto
@@ -115,7 +115,7 @@
                 }
             }
             .inicio__objetivos {
-                background-image: url(../img/fondo-objetivos.png);
+                background-image: url(../img/fondo-objetivos.jpg);
                 @extend %fondoimg;
                 @include flex(flex, space-evenly, center, row);
                 text-align: center;
@@ -126,7 +126,8 @@
                     width: 100%;
                     height: 450px;
                     margin: 30px;
-                    border-radius: 10px;
+                    border-radius: 20px;
+                    background-color: #615d602a;
                     img {
                         margin-top: 50px;
                         border: $color-primario solid 3px;

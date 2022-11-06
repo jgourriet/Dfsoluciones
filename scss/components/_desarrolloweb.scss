@@ -18,9 +18,8 @@
         height: auto;
 
         .hero__desweb {
-            background-image: url(../img/Desarrolloweb.png);
+            background-image: url(../img/Desarrolloweb.jpg);
             width: 100%;
-            height: calc(100vh - 100px);
             @extend %fondoimg;
             @include flex (flex, center, center, column);
             height: auto;
@@ -56,7 +55,7 @@
                     font-weight: 700;
                     width: 450px;
                     color: $color-terciario;
-                    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+                    text-shadow: 5px 3px 12px rgba(0, 0, 0, 0.459);
                 }
             }
 

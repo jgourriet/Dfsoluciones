@@ -23,17 +23,17 @@
                 @include flex (flex, center, center, column);
                 color: $color-terciario;
                 text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
-                .tsobre {
+                h2 {
                     font-size: 100px;
                     font-weight: 800;
                     border-bottom: 3px $color-primario solid;
                     padding: 10px;
                 }
-                .stsobre {
+                h5 {
                     font-size: 50px;
                     padding: 30px;
                 }
-                .psobre {
+                p {
                     color: $color-terciario;
                     font-size: 20px;
                     text-align: center;
@@ -46,9 +46,9 @@
             .main_valores {
                 width: 85%;
                 margin: auto;
-                border-bottom: $color-primario solid 3px;
+                height: auto;
                 .carousel-item{
-                    height: auto;
+                    height: 50%;
                 }
                 h5 {
                     font-size: 70px;

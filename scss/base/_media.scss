@@ -194,10 +194,10 @@
         .servicios__contenedor{
             .main__servicios{
                 .main__servicios1{
-                        h1 {
+                        h2 {
                             font-size: 4.5rem;
                         }
-                        h2 {
+                        h3 {
                             font-size: 1.8rem;
                         }
                         p {
@@ -217,10 +217,10 @@
         .nosotros__contenedor{
             .main__nosotros{
                 .main__sobre{
-                    .tsobre{
+                    h2{
                         font-size: 70px;
                     }
-                    .psobre {
+                    p {
                         width: 700px;
                     }
                 
@@ -419,10 +419,10 @@
         .servicios__contenedor{
             .main__servicios{
                 .main__servicios1 {
-                    h1 {
+                    h2 {
                         font-size: 3.5rem;
                     }
-                    h2 {
+                    h3 {
                         width: 95%;
                         font-size: 1.5rem;
                     }
@@ -459,15 +459,15 @@
         .nosotros__contenedor{
             .main__nosotros{
                 .main__sobre{
-                    .tsobre {
+                    h2 {
                         text-align: center;
                         font-size: 70px;
                     }
-                    .stsobre {
+                    h5 {
                         text-align: center;
                         font-size: 35px;
                     }
-                    .psobre {
+                    p {
                         font-size: 15px;
                         width: 474px;
                     }
@@ -595,10 +595,10 @@
         .servicios__contenedor {
             .main__servicios{
                 .main__servicios1{
-                    h1 {
+                    h2{
                         font-size: 3rem;
                     }
-                    h2 {
+                    h3 {
                         
                         font-size: 1.2rem;
                     }
@@ -626,13 +626,13 @@
             grid-template-rows: 100px auto 100px;
             .main__nosotros{
                 .main__sobre{
-                    .tsobre {
+                    h2 {
                         font-size: 60px;
                     }
-                    .stsobre{
+                    h5 {
                         font-size: 30px;
                     }
-                    .psobre {
+                    p {
                         font-size: 15px;
                         width: 345px;
                     }

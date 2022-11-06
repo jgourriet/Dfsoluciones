@@ -17,12 +17,12 @@
   right: 0.5%;
   transition: 2s ease; }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -80,7 +80,7 @@
   .contenedor__encabezado .menu #check {
     display: none; }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -132,8 +132,8 @@
           text-align: center; }
         .inicio__contenedor main .main__hero .inicio__hero p {
           color: white;
-          font-size: 18px;
-          width: 450px;
+          font-size: 20px;
+          width: 550px;
           text-align: center;
           text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
         .inicio__contenedor main .main__hero .inicio__hero .hero__boton {
@@ -170,7 +170,7 @@
           font-weight: 700; }
         .inicio__contenedor main .cont__sep .sep__info p {
           color: white;
-          width: 95%;
+          width: 90%;
           font-weight: 300;
           font-size: 18px;
           margin: auto; }
@@ -204,7 +204,7 @@
             margin: 25px;
             color: #4AD295; }
     .inicio__contenedor main .inicio__objetivos {
-      background-image: url(../img/fondo-objetivos.png);
+      background-image: url(../img/fondo-objetivos.jpg);
       display: flex;
       justify-content: space-evenly;
       align-items: center;
@@ -220,7 +220,8 @@
         width: 100%;
         height: 450px;
         margin: 30px;
-        border-radius: 10px; }
+        border-radius: 20px;
+        background-color: #615d602a; }
         .inicio__contenedor main .inicio__objetivos .objetivos img {
           margin-top: 50px;
           border: #4AD295 solid 3px;
@@ -243,7 +244,7 @@
           width: 300px;
           color: white; }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -272,9 +273,8 @@
     width: 100%;
     height: auto; }
     .desweb__contenedor .main__desweb .hero__desweb {
-      background-image: url(../img/Desarrolloweb.png);
+      background-image: url(../img/Desarrolloweb.jpg);
       width: 100%;
-      height: calc(100vh - 100px);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -307,7 +307,7 @@
           font-weight: 700;
           width: 450px;
           color: white;
-          text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
+          text-shadow: 5px 3px 12px rgba(0, 0, 0, 0.459); }
       .desweb__contenedor .main__desweb .hero__desweb .desweb__video iframe {
         width: 450px;
         height: 250px;
@@ -370,7 +370,7 @@
           text-align: center;
           transform: translate(-50%, -50%); }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -395,21 +395,18 @@
   gap: 0px 0px;
   grid-template-areas: "header header" "serv serv" "footer footer"; }
   .servicios__contenedor .main__servicios {
-    background: #4AD295;
-    background: radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
-    background: -webkit-radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
-    background: -moz-radial-gradient(circle farthest-side at center center, #4ad295 5%, #3d393b 90%);
     grid-area: serv;
     width: 100%;
     height: auto; }
     .servicios__contenedor .main__servicios .main__servicios1 {
+      background-image: url(../img/servicios.jpg);
       width: 100%;
       height: calc(100vh - 100px);
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       align-items: center;
       flex-direction: column; }
-      .servicios__contenedor .main__servicios .main__servicios1 h1 {
+      .servicios__contenedor .main__servicios .main__servicios1 h2 {
         width: 100%;
         color: white;
         font-weight: 800;
@@ -417,7 +414,7 @@
         font-size: 6rem;
         margin-top: 5vh;
         text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
-      .servicios__contenedor .main__servicios .main__servicios1 h2 {
+      .servicios__contenedor .main__servicios .main__servicios1 h3 {
         width: 100%;
         color: #4AD295;
         font-weight: 800;
@@ -444,6 +441,7 @@
       flex-wrap: wrap;
       height: auto; }
       .servicios__contenedor .main__servicios2 .serv__2 .items2 {
+        background-color: #5c585a;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -453,7 +451,6 @@
         padding: 20px;
         margin: 15px;
         text-align: center;
-        border: white solid;
         border-radius: 20px;
         box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
         -webkit-box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
@@ -483,7 +480,7 @@
             background: transparent;
             color: #4AD295; }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -521,15 +518,15 @@
       flex-direction: column;
       color: white;
       text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61); }
-      .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
+      .nosotros__contenedor .main__nosotros .main__sobre h2 {
         font-size: 100px;
         font-weight: 800;
         border-bottom: 3px #4AD295 solid;
         padding: 10px; }
-      .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
+      .nosotros__contenedor .main__nosotros .main__sobre h5 {
         font-size: 50px;
         padding: 30px; }
-      .nosotros__contenedor .main__nosotros .main__sobre .psobre {
+      .nosotros__contenedor .main__nosotros .main__sobre p {
         color: white;
         font-size: 20px;
         text-align: center;
@@ -540,9 +537,9 @@
     .nosotros__contenedor .main__nosotros .main_valores {
       width: 85%;
       margin: auto;
-      border-bottom: #4AD295 solid 3px; }
+      height: auto; }
       .nosotros__contenedor .main__nosotros .main_valores .carousel-item {
-        height: auto; }
+        height: 50%; }
       .nosotros__contenedor .main__nosotros .main_valores h5 {
         font-size: 70px;
         font-weight: 800;
@@ -552,7 +549,7 @@
         font-weight: 700;
         text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61); }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -637,7 +634,7 @@
             font-size: 1.1rem;
             margin-bottom: 30px; }
 
-.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios2, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
+.inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -655,10 +652,8 @@
 
 /*------------FOOTER------------*/
 .footer {
-  background: #4ad295;
-  background: linear-gradient(90deg, #4ad295 0%, #3d393b 20%);
-  background: -webkit-linear-gradient(90deg, #4ad295 0%, #3d393b 20%);
-  background: -moz-linear-gradient(90deg, #4ad295 0%, #3d393b 20%);
+  background: #3d393b;
+  background: linear-gradient(0deg, rgba(61, 57, 59, 0.899597) 12%, rgba(74, 210, 149, 0.342) 100%);
   grid-area: footer;
   display: flex;
   justify-content: space-around;
@@ -788,17 +783,17 @@
         font-size: 65px; }
       .desweb__contenedor .main__desweb .galeria .contenedor__imagenes {
         width: 100%; }
-  .servicios__contenedor .main__servicios .main__servicios1 h1 {
-    font-size: 4.5rem; }
   .servicios__contenedor .main__servicios .main__servicios1 h2 {
+    font-size: 4.5rem; }
+  .servicios__contenedor .main__servicios .main__servicios1 h3 {
     font-size: 1.8rem; }
   .servicios__contenedor .main__servicios .main__servicios1 p {
     width: 90%; }
   .servicios__contenedor .main__servicios .main__servicios2 .serv__2 {
     width: 90%; }
-  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
+  .nosotros__contenedor .main__nosotros .main__sobre h2 {
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
+  .nosotros__contenedor .main__nosotros .main__sobre p {
     width: 700px; }
   .nosotros__contenedor .main__nosotros .main_valores h5 {
     font-size: 40px; }
@@ -912,9 +907,9 @@
     flex-direction: column; }
     .desweb__contenedor .main__desweb .galeria .contenedor__imagenes .imagen {
       width: 100%; }
-  .servicios__contenedor .main__servicios .main__servicios1 h1 {
-    font-size: 3.5rem; }
   .servicios__contenedor .main__servicios .main__servicios1 h2 {
+    font-size: 3.5rem; }
+  .servicios__contenedor .main__servicios .main__servicios1 h3 {
     width: 95%;
     font-size: 1.5rem; }
   .servicios__contenedor .main__servicios .main__servicios1 p {
@@ -927,13 +922,13 @@
       width: 80%; }
     .contacto__contenedor .main__contacto .hero-page2 .wrap-two-column .column-half h2 {
       font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
+  .nosotros__contenedor .main__nosotros .main__sobre h2 {
     text-align: center;
     font-size: 70px; }
-  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
+  .nosotros__contenedor .main__nosotros .main__sobre h5 {
     text-align: center;
     font-size: 35px; }
-  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
+  .nosotros__contenedor .main__nosotros .main__sobre p {
     font-size: 15px;
     width: 474px; }
   .nosotros__contenedor .main__nosotros .main_valores {
@@ -999,9 +994,9 @@
       width: 100%; }
       .desweb__contenedor .main__desweb .galeria .contenedor__imagenes .imagen {
         width: 100%; }
-  .servicios__contenedor .main__servicios .main__servicios1 h1 {
-    font-size: 3rem; }
   .servicios__contenedor .main__servicios .main__servicios1 h2 {
+    font-size: 3rem; }
+  .servicios__contenedor .main__servicios .main__servicios1 h3 {
     font-size: 1.2rem; }
   .servicios__contenedor .main__servicios .main__servicios1 p {
     font-size: 1rem;
@@ -1015,11 +1010,11 @@
 
 .nosotros__contenedor {
   grid-template-rows: 100px auto 100px; }
-  .nosotros__contenedor .main__nosotros .main__sobre .tsobre {
+  .nosotros__contenedor .main__nosotros .main__sobre h2 {
     font-size: 60px; }
-  .nosotros__contenedor .main__nosotros .main__sobre .stsobre {
+  .nosotros__contenedor .main__nosotros .main__sobre h5 {
     font-size: 30px; }
-  .nosotros__contenedor .main__nosotros .main__sobre .psobre {
+  .nosotros__contenedor .main__nosotros .main__sobre p {
     font-size: 15px;
     width: 345px; }
 

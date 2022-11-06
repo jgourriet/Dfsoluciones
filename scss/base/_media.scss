@@ -593,6 +593,7 @@
         }
     
         .servicios__contenedor {
+            grid-template-rows: 100px auto 100px;
             .main__servicios{
                 .main__servicios1{
                     h2{

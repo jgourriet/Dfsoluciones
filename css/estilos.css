@@ -14,7 +14,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 1%;
+  bottom: 12%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -36,7 +36,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 1%;
+  bottom: 12%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -69,7 +69,11 @@
         border-radius: .5rem; }
       .contenedor__encabezado .menu ul li a {
         color: white;
-        text-decoration: none; }
+        text-decoration: none;
+        transition: 1.2s; }
+        .contenedor__encabezado .menu ul li a:hover {
+          color: #4AD295;
+          text-shadow: #4AD295 0 1px 30px; }
   .contenedor__encabezado .menu .menu__icon {
     display: none;
     margin-top: 10px;
@@ -95,7 +99,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 1%;
+  bottom: 12%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -104,7 +108,7 @@
   background-color: #3D393B;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px auto 200px;
+  grid-template-rows: 100px auto 110px;
   gap: 0px 0px;
   grid-template-areas: "header header" "main main" "footer footer"; }
   .inicio__contenedor main {
@@ -260,7 +264,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 1%;
+  bottom: 12%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -269,7 +273,7 @@
   background-color: #3D393B;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px auto 200px;
+  grid-template-rows: 100px auto 110px;
   gap: 0px 0px;
   grid-template-areas: "header header" "desweb desweb" "footer footer"; }
   .desweb__contenedor .main__desweb {
@@ -388,7 +392,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 1%;
+  bottom: 12%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -397,7 +401,7 @@
   background-color: #3D393B;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px auto 200px;
+  grid-template-rows: 100px auto 110px;
   gap: 0px 0px;
   grid-template-areas: "header header" "serv serv" "footer footer"; }
   .servicios__contenedor .main__servicios {
@@ -502,7 +506,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 1%;
+  bottom: 12%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -511,7 +515,7 @@
   background-color: #3D393B;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px auto 200px;
+  grid-template-rows: 100px auto 110px;
   gap: 0px 0px;
   grid-template-areas: "header header" "nosotros nosotros" "footer footer"; }
   .nosotros__contenedor .main__nosotros {
@@ -573,7 +577,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 1%;
+  bottom: 12%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -582,7 +586,7 @@
   background-color: #3D393B;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px auto 200px;
+  grid-template-rows: 100px auto 110px;
   gap: 0px 0px;
   grid-template-areas: "header header" "contacto contacto" "footer footer"; }
   .contacto__contenedor .main__contacto {
@@ -672,7 +676,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 1%;
+  bottom: 12%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -682,9 +686,9 @@
   background: linear-gradient(0deg, rgba(61, 57, 59, 0.899597) 12%, rgba(74, 210, 149, 0.342) 100%);
   grid-area: footer;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   height: auto; }
   .footer .footer__redes {
@@ -693,32 +697,26 @@
     align-items: center;
     flex-direction: row; }
     .footer .footer__redes img {
-      padding: 15px;
+      width: 50px;
+      height: 50px;
+      margin: 5px;
       transition: 1s ease; }
       .footer .footer__redes img:hover {
         transform: scale(1.5); }
-  .footer .footer__fin {
-    padding: 5px;
+  .footer .footer__fin ul {
     display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: column;
-    text-align: center; }
-    .footer .footer__fin h3 {
-      color: white;
-      font-weight: 700; }
-    .footer .footer__fin p {
-      width: 200px;
-      font-size: 10px;
-      font-weight: 400;
-      color: white; }
-  .footer .mapa h4 {
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-    font-weight: 700; }
-  .footer .mapa iframe {
-    border-radius: 10px; }
+    align-items: center; }
+    .footer .footer__fin ul li {
+      margin-right: 1rem;
+      list-style-type: none;
+      font-size: 15px; }
+      .footer .footer__fin ul li a {
+        color: white;
+        text-decoration: none;
+        transition: 1.2s; }
+        .footer .footer__fin ul li a:hover {
+          color: #4AD295;
+          text-shadow: #4AD295 0 1px 30px; }
 
 /*!-----------------MEDIA QUERIE--------------------*/
 @media screen and (max-width: 1235px) {
@@ -876,8 +874,6 @@
     width: 45px;
     height: 45px; }
   /*--------MAPA FOOTER----------*/
-  .mapa {
-    display: none; }
   .inicio__contenedor main .main__hero .inicio__hero h2 {
     font-size: 45px;
     width: 400px; }

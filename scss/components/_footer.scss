@@ -6,7 +6,7 @@
     background: rgb(61,57,59);
 background: linear-gradient(0deg, rgba(61,57,59,0.8995973389355743) 12%, rgba(74, 210, 149, 0.342) 100%);
     grid-area: footer;
-    @include flex (flex, space-around, center, row);
+    @include flex (flex, center, center, column);
     width: 100%;
     height: auto;
     
@@ -14,7 +14,9 @@ background: linear-gradient(0deg, rgba(61,57,59,0.8995973389355743) 12%, rgba(74
         @include flex (flex, space-around, center, row);
 
         img {
-            padding: 15px;
+            width: 50px;
+            height: 50px;
+            margin: 5px;
             transition: 1s ease;
 
             &:hover {
@@ -24,33 +26,25 @@ background: linear-gradient(0deg, rgba(61,57,59,0.8995973389355743) 12%, rgba(74
     }
 
     .footer__fin {
-        padding: 5px;
-        @include flex (flex, start, center, column);
-        text-align: center;
+        ul {
+            display: flex;
+            align-items: center;
 
-        h3 {
-            color: $color-terciario;
-            font-weight: 700;
-        }
-
-        p {
-            width: 200px;
-            font-size: 10px;
-            font-weight: 400;
-            color: $color-terciario;
-        }
-    }
-
-    .mapa {
-        h4 {
-            color: $color-terciario;
-            text-align: center;
-            text-decoration: underline;
-            font-weight: 700;
-        }
-
-        iframe {
-            border-radius: 10px;
+            li {
+                margin-right: 1rem;
+                list-style-type: none;
+                font-size: 15px;
+                a {
+                    color: $color-terciario;
+                    text-decoration: none;
+                    transition: 1.2s;
+                    &:hover{
+                        color: $color-primario;
+                        text-shadow: #4AD295 0 1px 30px;
+                    }
+                }
+            }
         }
     }
+
 }

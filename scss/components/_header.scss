@@ -41,6 +41,11 @@
                 a {
                     color: $color-terciario;
                     text-decoration: none;
+                    transition: 1.2s;
+                    &:hover{
+                        color: $color-primario;
+                        text-shadow: #4AD295 0 1px 30px;
+                    }
                 }
             }
         }

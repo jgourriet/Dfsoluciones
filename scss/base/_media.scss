@@ -372,14 +372,15 @@
                 .inicio__objetivos {
                     border-top: #4AD295 solid 3px;
                     border-bottom: #4AD295 solid 3px;
-                    width: 85%;
+                    width: 100%;
                     margin: auto;
                     display: flex;
                     justify-content: space-around;
                     flex-direction: column;
                     align-items: center;
                     .objetivos {
-                        width: 100%;
+                        width: 85%;
+                        
                     }
                 }
             }
@@ -447,6 +448,11 @@
                         grid-template-columns: 1fr;
                         .form {
                             width: 80%;
+                            .formulario{
+                                button{
+                                    padding: 0 2.6rem;
+                                }
+                            }
                         }
                         .column-half h2 {
                             font-size: 30px;
@@ -562,6 +568,7 @@
             grid-template-rows: 100px auto 100px;
             .main__desweb{
                 .hero__desweb{
+                    background-image: url(../img/deswebresp.jpg);
                     .desweb__text{
                         h2 {
                             font-size: 40px;
@@ -596,6 +603,7 @@
             grid-template-rows: 100px auto 100px;
             .main__servicios{
                 .main__servicios1{
+                    background-image: url(../img/servresp.jpg);
                     h2{
                         font-size: 3rem;
                     }

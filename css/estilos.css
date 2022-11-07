@@ -9,6 +9,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
   font-family: 'League Spartan', sans-serif; }
 
 .wtp {
@@ -30,6 +31,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
   font-family: 'League Spartan', sans-serif; }
 
 .wtp {
@@ -88,6 +90,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
   font-family: 'League Spartan', sans-serif; }
 
 .wtp {
@@ -252,6 +255,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
   font-family: 'League Spartan', sans-serif; }
 
 .wtp {
@@ -379,6 +383,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
   font-family: 'League Spartan', sans-serif; }
 
 .wtp {
@@ -492,6 +497,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
   font-family: 'League Spartan', sans-serif; }
 
 .wtp {
@@ -562,6 +568,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
   font-family: 'League Spartan', sans-serif; }
 
 .wtp {
@@ -630,14 +637,27 @@
             padding: .5rem .2rem;
             border-bottom: 3px solid #4AD295; }
           .contacto__contenedor .main__contacto .hero-page2 .form .formulario button {
-            width: fit-content;
-            border: none;
-            width: 100%;
-            padding: .5rem 1rem;
-            background-color: #4AD295;
-            color: white;
-            font-size: 1.1rem;
-            margin-bottom: 10vh; }
+            background-image: linear-gradient(92.88deg, #4AD295 9.16%, #4AD295 43.89%, #4AD295 64.72%);
+            border-radius: 8px;
+            border-style: none;
+            margin-bottom: 10vh;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            flex-shrink: 0;
+            font-size: 16px;
+            font-weight: 500;
+            height: 4rem;
+            padding: 0 1.6rem;
+            text-align: center;
+            text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+            transition: all .5s;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation; }
+            .contacto__contenedor .main__contacto .hero-page2 .form .formulario button:hover {
+              box-shadow: #4AD295 0 1px 30px;
+              transition-duration: .1s; }
 
 .inicio__contenedor main .main__hero, .inicio__contenedor main .inicio__objetivos, .desweb__contenedor .main__desweb .hero__desweb, .servicios__contenedor, .servicios__contenedor .main__servicios .main__servicios1, .nosotros__contenedor .main__nosotros .main__sobre, .contacto__contenedor .main__contacto {
   background-repeat: no-repeat;
@@ -647,6 +667,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  box-sizing: border-box;
   font-family: 'League Spartan', sans-serif; }
 
 .wtp {
@@ -889,14 +910,14 @@
   .inicio__contenedor main .inicio__objetivos {
     border-top: #4AD295 solid 3px;
     border-bottom: #4AD295 solid 3px;
-    width: 85%;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center; }
     .inicio__contenedor main .inicio__objetivos .objetivos {
-      width: 100%; }
+      width: 85%; }
   .desweb__contenedor .main__desweb .hero__desweb .desweb__text h2 {
     font-size: 50px; }
   .desweb__contenedor .main__desweb .hero__desweb .desweb__text h3 {
@@ -925,6 +946,8 @@
     grid-template-columns: 1fr; }
     .contacto__contenedor .main__contacto .hero-page2 .wrap-two-column .form {
       width: 80%; }
+      .contacto__contenedor .main__contacto .hero-page2 .wrap-two-column .form .formulario button {
+        padding: 0 2.6rem; }
     .contacto__contenedor .main__contacto .hero-page2 .wrap-two-column .column-half h2 {
       font-size: 30px; }
   .nosotros__contenedor .main__nosotros .main__sobre h2 {
@@ -985,29 +1008,33 @@
           padding: 10px; }
   .desweb__contenedor {
     grid-template-rows: 100px auto 100px; }
-    .desweb__contenedor .main__desweb .hero__desweb .desweb__text h2 {
-      font-size: 40px; }
-    .desweb__contenedor .main__desweb .hero__desweb .desweb__text h3 {
-      font-size: 30px; }
-    .desweb__contenedor .main__desweb .hero__desweb .desweb__text p {
-      width: 340px;
-      font-size: 16px; }
-    .desweb__contenedor .main__desweb .hero__desweb .desweb__video iframe {
-      width: 300px;
-      height: 250px; }
+    .desweb__contenedor .main__desweb .hero__desweb {
+      background-image: url(../img/deswebresp.jpg); }
+      .desweb__contenedor .main__desweb .hero__desweb .desweb__text h2 {
+        font-size: 40px; }
+      .desweb__contenedor .main__desweb .hero__desweb .desweb__text h3 {
+        font-size: 30px; }
+      .desweb__contenedor .main__desweb .hero__desweb .desweb__text p {
+        width: 340px;
+        font-size: 16px; }
+      .desweb__contenedor .main__desweb .hero__desweb .desweb__video iframe {
+        width: 300px;
+        height: 250px; }
     .desweb__contenedor .main__desweb .galeria .contenedor__imagenes {
       width: 100%; }
       .desweb__contenedor .main__desweb .galeria .contenedor__imagenes .imagen {
         width: 100%; }
   .servicios__contenedor {
     grid-template-rows: 100px auto 100px; }
-    .servicios__contenedor .main__servicios .main__servicios1 h2 {
-      font-size: 3rem; }
-    .servicios__contenedor .main__servicios .main__servicios1 h3 {
-      font-size: 1.2rem; }
-    .servicios__contenedor .main__servicios .main__servicios1 p {
-      font-size: 1rem;
-      width: 95%; }
+    .servicios__contenedor .main__servicios .main__servicios1 {
+      background-image: url(../img/servresp.jpg); }
+      .servicios__contenedor .main__servicios .main__servicios1 h2 {
+        font-size: 3rem; }
+      .servicios__contenedor .main__servicios .main__servicios1 h3 {
+        font-size: 1.2rem; }
+      .servicios__contenedor .main__servicios .main__servicios1 p {
+        font-size: 1rem;
+        width: 95%; }
     .servicios__contenedor .main__servicios2 .serv__2 {
       width: 100%; }
       .servicios__contenedor .main__servicios2 .serv__2 .items2 {

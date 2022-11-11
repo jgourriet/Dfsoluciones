@@ -14,7 +14,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 12%;
+  bottom: 3%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -36,7 +36,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 12%;
+  bottom: 3%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -99,7 +99,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 12%;
+  bottom: 3%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -153,7 +153,8 @@
           transition: 2s;
           text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6); }
           .inicio__contenedor main .main__hero .inicio__hero .hero__boton:hover {
-            transform: scale(1.2); }
+            transform: scale(1.2);
+            text-shadow: #4AD295 0 1px 30px; }
     .inicio__contenedor main .cont__sep {
       background-color: #3D393B;
       display: flex;
@@ -264,7 +265,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 12%;
+  bottom: 3%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -392,7 +393,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 12%;
+  bottom: 3%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -506,7 +507,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 12%;
+  bottom: 3%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -577,7 +578,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 12%;
+  bottom: 3%;
   right: 0.5%;
   transition: 2s ease; }
 
@@ -676,7 +677,7 @@
 
 .wtp {
   position: fixed;
-  bottom: 12%;
+  bottom: 3%;
   right: 0.5%;
   transition: 2s ease; }
 

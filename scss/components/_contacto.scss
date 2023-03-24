@@ -1,0 +1,113 @@
+@import "../base/variables";
+@import "../base/generales";
+
+/*-------------CONTACTO------------*/
+.contacto__contenedor {
+    background-color: #3D393B;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px auto 110px;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header header"
+        "contacto contacto"
+        "footer footer";
+
+    .main__contacto {
+        grid-area: contacto;
+        background-image: url(../img/contacto.png);
+        width: 100%;
+        height: auto;
+        @extend %fondoimg;
+
+        .hero-page2 {
+            max-width: 1200px;
+            margin: auto auto;
+            padding: 10px;
+
+            .hero-page {
+                h1 {
+                    color: $color-primario;
+                    margin-top: 20px;
+                    font-size: 70px;
+                    font-weight: 700;
+                    text-align: center;
+                    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+                }
+            }
+
+            .wrap-two-column {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr;
+                @include flex(flex, center, center, column);
+                width: 85%;
+                height: 85%;
+                margin: auto;
+                text-align: center;
+
+                .column-half {
+                    h2 {
+                        color: $color-terciario;
+                        font-size: 55px;
+                        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.603);
+                    }
+
+                    p {
+                        color: $color-terciario;
+                        width: 50%;
+                        margin: auto;
+                        font-size: 18px;
+                        text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+                    }
+                }
+            }
+
+            .form {
+                width: 50%;
+
+                .formulario {
+                    display: flex;
+                    flex-flow: column;
+
+                    textarea {
+                        margin: .5rem 0;
+                        padding: .5rem .2rem;
+                        border-bottom: 3px solid $color-primario;
+                    }
+
+                    input {
+                        margin: .5rem 0;
+                        padding: .5rem .2rem;
+                        border-bottom: 3px solid $color-primario;
+                    }
+
+                    button {
+                        background-image: linear-gradient(92.88deg, #4AD295 9.16%, #4AD295 43.89%, #4AD295 64.72%);
+                        border-radius: 8px;
+                        border-style: none;
+                        margin-bottom: 10vh;
+                        box-sizing: border-box;
+                        color: #FFFFFF;
+                        cursor: pointer;
+                        flex-shrink: 0;
+                        font-size: 16px;
+                        font-weight: 500;
+                        height: 4rem;
+                        padding: 0 1.6rem;
+                        text-align: center;
+                        text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+                        transition: all .5s;
+                        user-select: none;
+                        -webkit-user-select: none;
+                        touch-action: manipulation;
+                        &:hover {
+                            box-shadow: #4AD295 0 1px 30px;
+                            transition-duration: .1s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

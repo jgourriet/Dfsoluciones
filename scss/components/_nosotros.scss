@@ -1,0 +1,67 @@
+@import "../base/variables";
+@import "../base/generales";
+/*-------------NOSOTROS-------------*/
+.nosotros__contenedor {
+    background-color: $color-secundario;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px auto 110px;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header header"
+        "nosotros nosotros"
+        "footer footer";
+        .main__nosotros {
+            grid-area: nosotros;
+            width: 100%;
+            height: auto;
+            .main__sobre {
+                background-image: url(../img/nosotros.jpg);
+                width: 100%;
+                height: auto;
+                @extend %fondoimg;
+                @include flex (flex, center, center, column);
+                color: $color-terciario;
+                text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
+                h2 {
+                    margin-top: 10vh;
+                    font-size: 100px;
+                    font-weight: 800;
+                    border-bottom: 3px $color-primario solid;
+                    padding: 10px;
+                }
+                h5 {
+                    font-size: 50px;
+                    padding: 30px;
+                }
+                p {
+                    color: $color-terciario;
+                    font-size: 20px;
+                    text-align: center;
+                    padding: 10px;
+                    width: 900px;
+                    font-weight: 500;
+                    margin-bottom: 8vh;
+                }
+            }
+            .main_valores {
+                width: 85%;
+                margin: auto;
+                height: auto;
+                .carousel-item{
+                    height: 50%;
+                }
+                h5 {
+                    font-size: 70px;
+                    font-weight: 800;
+                    text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
+                }
+                p {
+                    font-size: 30px;
+                    font-weight: 700;
+                    text-shadow: 4px 4px 10px rgba(11, 11, 11, 0.61);
+                }
+            }
+        }
+}
+

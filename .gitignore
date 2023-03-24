@@ -1,0 +1,7 @@
+# Archivos de texto
+*.txt
+
+
+
+# Carpeta de node_modules
+node_modules/

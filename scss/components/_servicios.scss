@@ -1,0 +1,126 @@
+@import "../base/variables";
+@import "../base/generales";
+
+/*---------------SERVICIOS-------------------*/
+.servicios__contenedor {
+    background-color: $color-secundario;
+    @extend %fondoimg;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px auto 110px;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header header"
+        "serv serv"
+        "footer footer";
+
+    .main__servicios {
+        grid-area: serv;
+        width: 100%;
+        height: auto;
+
+        .main__servicios1 {
+            background-image: url(../img/servicios.jpg);
+            @extend %fondoimg;
+            width: 100%;
+            height: calc(100vh- 100px);
+            @include flex (flex, center, center, column);
+
+            h2 {
+                width: 100%;
+                color: white;
+                font-weight: 800;
+                text-align: center;
+                font-size: 6rem;
+                margin-top: 10vh;
+                text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+            }
+
+            h3 {
+                width: 100%;
+                color: $color-primario;
+                font-weight: 800;
+                text-align: center;
+                font-size: 2rem;
+                margin-top: 10vh;
+                text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+            }
+
+            p {
+                width: 60%;
+                color: $color-terciario;
+                font-weight: 400;
+                text-align: center;
+                font-size: 1.5rem;
+                margin-top: 15vh;
+                margin-bottom: 10vh;
+                text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+            }
+
+        }
+    }
+
+    .main__servicios2 {
+        background-color: $color-secundario;
+        width: 100%;
+        height: auto;
+        .serv__2 {
+            display: flex;
+            width: 95%;
+            margin: auto;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            height: auto;
+            margin-bottom: 30px;
+
+            .items2 {
+                background-color: #5c585a;
+                @include flex (flex, space-around, center, column);
+                width: 30%;
+                height: auto;
+                padding: 20px;
+                margin: 15px;
+                text-align: center;
+                border-radius: 20px;
+                box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
+                -webkit-box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
+                -moz-box-shadow: 10px 10px 24px -8px rgba(0, 0, 0, 0.89);
+
+                h3 {
+                    font-size: 25px;
+                    padding: 10px;
+                    color: $color-primario;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 20px;
+                    padding: 5px;
+                    color: $color-terciario;
+                }
+
+                a {
+                    button {
+                        font-size: 15px;
+                        font-weight: 700;
+                        padding: 0.75rem;
+                        border-radius: 0.5rem;
+                        outline: none;
+                        margin-left: 0.5rem;
+                        border: 1px solid $color-primario;
+                        background-color: $color-primario;
+                        color: $color-secundario;
+                        cursor: pointer;
+                        transition: 0.3s ease-in-out;
+
+                        &:hover {
+                            background: transparent;
+                            color: $color-primario;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
